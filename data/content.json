@@ -855,7 +855,19 @@
       "explanation": "A tankönyv meghatározása szerint a mítosz az istenekhez és természetfölötti hősökhöz kötődő történet.",
       "source": {
         "book_page": 74
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)",
+        "Szerző által kitalált mese modern helyszínekkel",
+        "Legendás történet szentekről és csodáikról"
+      ]
     },
     {
       "id": "q002",
@@ -874,7 +886,19 @@
       "explanation": "",
       "source": {
         "book_page": 74
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)",
+        "Szerző által kitalált mese modern helyszínekkel",
+        "Legendás történet szentekről és csodáikról"
+      ]
     },
     {
       "id": "q003",
@@ -890,7 +914,19 @@
       "explanation": "",
       "source": {
         "book_page": 74
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)",
+        "Szerző által kitalált mese modern helyszínekkel",
+        "Legendás történet szentekről és csodáikról"
+      ]
     },
     {
       "id": "q004",
@@ -906,7 +942,19 @@
       "explanation": "",
       "source": {
         "book_page": 74
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)",
+        "Szerző által kitalált mese modern helyszínekkel",
+        "Legendás történet szentekről és csodáikról"
+      ]
     },
     {
       "id": "q005",
@@ -924,7 +972,21 @@
       "explanation": "",
       "source": {
         "book_page": 81
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Matematika (mert ott is vannak 'műveletek')",
+        "Földrajz (mert ott is vannak 'tájak')",
+        "„Műnem: az, hogy mű… nem! 🙂”",
+        "„Műnem: a történet 'műfaja', nem a műszak”",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)"
+      ]
     },
     {
       "id": "q006",
@@ -940,7 +1002,21 @@
       "explanation": "",
       "source": {
         "book_page": 81
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Receptkészítés és főzési tippek",
+        "Űrutazás az Olümposzra",
+        "A görög istenek háziállatai",
+        "„Téma: hogyan NE írjunk dolgozatot”",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)"
+      ]
     },
     {
       "id": "q007",
@@ -956,7 +1032,21 @@
       "explanation": "",
       "source": {
         "book_page": 81
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Egy mellékszereplő, akit senki sem jegyzett meg",
+        "Egy teljesen más mítosz hőse",
+        "Egy modern szereplő (pl. szuperhős)",
+        "„A narrátor nagymamája”",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)"
+      ]
     },
     {
       "id": "q008",
@@ -972,7 +1062,21 @@
       "explanation": "",
       "source": {
         "book_page": 81
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Teljesen biztos, ellenőrzött tudományos jelentés",
+        "Újsághír 2026-ból",
+        "Egy meteorológiai előrejelzés",
+        "„Valóság: amikor nem varázsolnak”",
+        "Mert Zeusz így döntött (és kész)",
+        "Mert valaki eltévesztette az utasítást",
+        "Mert 'szabály az szabály' az Olümposzon"
+      ]
     },
     {
       "id": "q009",
@@ -988,7 +1092,19 @@
       "explanation": "",
       "source": {
         "book_page": 81
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)",
+        "Szerző által kitalált mese modern helyszínekkel",
+        "Legendás történet szentekről és csodáikról"
+      ]
     },
     {
       "id": "q010",
@@ -1004,7 +1120,21 @@
       "explanation": "",
       "source": {
         "book_page": 75
-      }
+      },
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "A tenger sós vize (mert 'feloldotta' a viaszt)",
+        "Zeusz villáma (mert túl magasra ment)",
+        "Héphaisztosz kohójának hője (mert rossz útvonalat választott)",
+        "Egy sirálycsapat csipkedése (mert irigyek voltak)",
+        "A labirintus szellőzőrácsa (mert túl közel repült)"
+      ]
     },
     {
       "id": "q011",
@@ -1021,7 +1151,21 @@
       "explanation": "",
       "source": {
         "book_page": 75
-      }
+      },
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "A tenger sós vize (mert 'feloldotta' a viaszt)",
+        "Zeusz villáma (mert túl magasra ment)",
+        "Héphaisztosz kohójának hője (mert rossz útvonalat választott)",
+        "Egy sirálycsapat csipkedése (mert irigyek voltak)",
+        "A labirintus szellőzőrácsa (mert túl közel repült)"
+      ]
     },
     {
       "id": "q012",
@@ -1037,7 +1181,21 @@
       "explanation": "",
       "source": {
         "book_page": 75
-      }
+      },
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "A tenger sós vize (mert 'feloldotta' a viaszt)",
+        "Zeusz villáma (mert túl magasra ment)",
+        "Héphaisztosz kohójának hője (mert rossz útvonalat választott)",
+        "Egy sirálycsapat csipkedése (mert irigyek voltak)",
+        "A labirintus szellőzőrácsa (mert túl közel repült)"
+      ]
     },
     {
       "id": "q013",
@@ -1053,7 +1211,21 @@
       "explanation": "",
       "source": {
         "book_page": 75
-      }
+      },
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "A tenger sós vize (mert 'feloldotta' a viaszt)",
+        "Zeusz villáma (mert túl magasra ment)",
+        "Héphaisztosz kohójának hője (mert rossz útvonalat választott)",
+        "Egy sirálycsapat csipkedése (mert irigyek voltak)",
+        "A labirintus szellőzőrácsa (mert túl közel repült)"
+      ]
     },
     {
       "id": "q014",
@@ -1070,7 +1242,21 @@
       "explanation": "",
       "source": {
         "book_page": 75
-      }
+      },
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "A tenger sós vize (mert 'feloldotta' a viaszt)",
+        "Zeusz villáma (mert túl magasra ment)",
+        "Héphaisztosz kohójának hője (mert rossz útvonalat választott)",
+        "Egy sirálycsapat csipkedése (mert irigyek voltak)",
+        "A labirintus szellőzőrácsa (mert túl közel repült)"
+      ]
     },
     {
       "id": "q015",
@@ -1087,7 +1273,21 @@
       "explanation": "",
       "source": {
         "book_page": 76
-      }
+      },
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "A tenger sós vize (mert 'feloldotta' a viaszt)",
+        "Zeusz villáma (mert túl magasra ment)",
+        "Héphaisztosz kohójának hője (mert rossz útvonalat választott)",
+        "Egy sirálycsapat csipkedése (mert irigyek voltak)",
+        "A labirintus szellőzőrácsa (mert túl közel repült)"
+      ]
     },
     {
       "id": "q016",
@@ -1103,7 +1303,21 @@
       "explanation": "",
       "source": {
         "book_page": 76
-      }
+      },
+      "distractors": [
+        "Egy szupermarket parkoló (mert ott is el lehet tévedni)",
+        "Egy metróaluljáró csúcsidőben",
+        "Egy 'menekülőszoba' tesztverzió",
+        "Minósz palotája alatti útvesztő (de rossz városban)",
+        "Ariadné fonala helyett 'USB-kábel' segítsége",
+        "„Labirintus = ahol még a GPS is sír”",
+        "Thészeusz (mert ő is király… ja nem)",
+        "Agamemnón (mert a királyok gyakran összekeverednek)",
+        "„Minósz, a szigeti 'főnök'”",
+        "„Minósz, aki belépőkártyát oszt a labirintushoz”",
+        "Mert Zeusz így döntött (és kész)",
+        "Mert valaki eltévesztette az utasítást"
+      ]
     },
     {
       "id": "q017",
@@ -1119,7 +1333,21 @@
       "explanation": "",
       "source": {
         "book_page": 76
-      }
+      },
+      "distractors": [
+        "Egy szupermarket parkoló (mert ott is el lehet tévedni)",
+        "Egy metróaluljáró csúcsidőben",
+        "Egy 'menekülőszoba' tesztverzió",
+        "Minósz palotája alatti útvesztő (de rossz városban)",
+        "Ariadné fonala helyett 'USB-kábel' segítsége",
+        "„Labirintus = ahol még a GPS is sír”",
+        "Kentaur (mert félig ez, félig az)",
+        "Szfinx (mert ő is kérdéseket ad…)",
+        "„Minó-taurusz, a 'mini bika'”",
+        "Egy nagyon morcos bika jelmezben",
+        "Thészeusz",
+        "Prométheusz"
+      ]
     },
     {
       "id": "q018",
@@ -1134,7 +1362,19 @@
       "explanation": "",
       "source": {
         "book_page": 76
-      }
+      },
+      "distractors": [
+        "Egy szupermarket parkoló (mert ott is el lehet tévedni)",
+        "Egy metróaluljáró csúcsidőben",
+        "Egy 'menekülőszoba' tesztverzió",
+        "Minósz palotája alatti útvesztő (de rossz városban)",
+        "Ariadné fonala helyett 'USB-kábel' segítsége",
+        "„Labirintus = ahol még a GPS is sír”",
+        "Egy hasonló mítoszból származó, de itt nem helyes részlet",
+        "Egy jól hangzó, de összekevert szereplő/helyszín",
+        "Egy 'majdnem igaz' válasz – pont ettől csapda 🙂",
+        "Egy túl modern magyarázat (ami nem illik ide)"
+      ]
     },
     {
       "id": "q019",
@@ -1151,7 +1391,21 @@
       "explanation": "",
       "source": {
         "book_page": 76
-      }
+      },
+      "distractors": [
+        "Egy szupermarket parkoló (mert ott is el lehet tévedni)",
+        "Egy metróaluljáró csúcsidőben",
+        "Egy 'menekülőszoba' tesztverzió",
+        "Minósz palotája alatti útvesztő (de rossz városban)",
+        "Ariadné fonala helyett 'USB-kábel' segítsége",
+        "„Labirintus = ahol még a GPS is sír”",
+        "Thészeusz (mert ő is király… ja nem)",
+        "Agamemnón (mert a királyok gyakran összekeverednek)",
+        "„Minósz, a szigeti 'főnök'”",
+        "„Minósz, aki belépőkártyát oszt a labirintushoz”",
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)"
+      ]
     },
     {
       "id": "q020",
@@ -1170,7 +1424,21 @@
       "explanation": "",
       "source": {
         "book_page": 76
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Egy szupermarket parkoló (mert ott is el lehet tévedni)",
+        "Egy metróaluljáró csúcsidőben",
+        "Egy 'menekülőszoba' tesztverzió",
+        "Minósz palotája alatti útvesztő (de rossz városban)",
+        "Ariadné fonala helyett 'USB-kábel' segítsége",
+        "„Labirintus = ahol még a GPS is sír”",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés"
+      ]
     },
     {
       "id": "q021",
@@ -1188,7 +1456,18 @@
       "explanation": "",
       "source": {
         "book_page": 77
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”"
+      ]
     },
     {
       "id": "q022",
@@ -1204,7 +1483,21 @@
       "explanation": "",
       "source": {
         "book_page": 77
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”",
+        "Víz (mert néha jó ellentétet mondani)",
+        "Villám (mert Zeusz szereti a látványt)",
+        "Jég (mert 'fordított nap' volt)"
+      ]
     },
     {
       "id": "q023",
@@ -1220,7 +1513,21 @@
       "explanation": "",
       "source": {
         "book_page": 77
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”",
+        "Poszeidón (mert ő is főisten… na jó, nem)",
+        "Hádész (mert ő is nagyhatalmú)",
+        "Apollón (mert ő is menő)"
+      ]
     },
     {
       "id": "q024",
@@ -1239,7 +1546,21 @@
       "explanation": "",
       "source": {
         "book_page": 78
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”",
+        "Ariadné",
+        "Héra",
+        "Hermész"
+      ]
     },
     {
       "id": "q025",
@@ -1254,7 +1575,18 @@
       "explanation": "",
       "source": {
         "book_page": 78
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”"
+      ]
     },
     {
       "id": "q026",
@@ -1273,7 +1605,21 @@
       "explanation": "",
       "source": {
         "book_page": 78
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”",
+        "Minósz",
+        "Poszeidón",
+        "Hádész"
+      ]
     },
     {
       "id": "q027",
@@ -1289,7 +1635,18 @@
       "explanation": "",
       "source": {
         "book_page": 78
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”"
+      ]
     },
     {
       "id": "q028",
@@ -1308,7 +1665,21 @@
       "explanation": "",
       "source": {
         "book_page": 79
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”",
+        "Minden részlet betű szerint (de valójában csak a lényeget)",
+        "Egyetlen szóban: 'Görögök!'",
+        "„Összefoglaló: amit a tanár kér, nem amit te szeretnél”"
+      ]
     },
     {
       "id": "q029",
@@ -1324,7 +1695,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q030",
@@ -1343,7 +1728,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q031",
@@ -1361,7 +1760,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q032",
@@ -1377,7 +1790,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q033",
@@ -1393,7 +1820,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q034",
@@ -1409,7 +1850,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q035",
@@ -1425,7 +1880,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q036",
@@ -1441,7 +1910,21 @@
       "explanation": "",
       "source": {
         "book_page": 81
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q037",
@@ -1457,7 +1940,21 @@
       "explanation": "",
       "source": {
         "book_page": 81
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q038",
@@ -1473,7 +1970,17 @@
       "explanation": "",
       "source": {
         "book_page": 82
-      }
+      },
+      "distractors": [
+        "Minden részlet betű szerint (de valójában csak a lényeget)",
+        "Egyetlen szóban: 'Görögök!'",
+        "„Összefoglaló: amit a tanár kér, nem amit te szeretnél”",
+        "Mesék; Mondák; Legendák (összekeverve, hogy csapda legyen)",
+        "Mítoszok; Regények; Drámák (mert jól hangzik, de nem ez)",
+        "Viccek; Közmondások; Reklámok (na ez biztos nem)",
+        "Népmese; Műmese; Tudományos cikk (csak hogy fájjon 🙂)",
+        "Eposz; Ballada; Lim(l)onádé (a harmadik már gyanús)"
+      ]
     },
     {
       "id": "q039",
@@ -1489,7 +1996,17 @@
       "explanation": "",
       "source": {
         "book_page": 82
-      }
+      },
+      "distractors": [
+        "Minden részlet betű szerint (de valójában csak a lényeget)",
+        "Egyetlen szóban: 'Görögök!'",
+        "„Összefoglaló: amit a tanár kér, nem amit te szeretnél”",
+        "Thészeusz és a Minótaurosz; Héraklész próbái; Odüsszeusz kalandjai",
+        "Erisz aranyalmája; Trójai faló; Perszephoné elrablása",
+        "„A görög istenek családi vacsorája” (nem tankönyvi változat)",
+        "„A labirintus GPS-frissítése” (modern mítosz)",
+        "„Prométheusz és az energiatakarékos tűz”"
+      ]
     },
     {
       "id": "q040",
@@ -1505,7 +2022,18 @@
       "explanation": "",
       "source": {
         "book_page": 83
-      }
+      },
+      "distractors": [
+        "Szerzője mindig ismert és pontos dátummal rendelkezik",
+        "Mindig valós történelmi személyekről szól",
+        "Csak tudományos tényeket közöl",
+        "Minden mondat végén rímel (mint egy rap)",
+        "Mindig ugyanazzal a mondattal végződik: 'iratkozz fel!'",
+        "Műmese (mert ott is van tanulság, csak van szerző)",
+        "Legenda (mert az is 'régi történet')",
+        "Monda (mert az is a múltról szól)",
+        "„Népmese: amikor a nép a kommentekben írja tovább”"
+      ]
     },
     {
       "id": "q041",
@@ -1521,7 +2049,18 @@
       "explanation": "",
       "source": {
         "book_page": 83
-      }
+      },
+      "distractors": [
+        "Szerzője mindig ismert és pontos dátummal rendelkezik",
+        "Mindig valós történelmi személyekről szól",
+        "Csak tudományos tényeket közöl",
+        "Minden mondat végén rímel (mint egy rap)",
+        "Mindig ugyanazzal a mondattal végződik: 'iratkozz fel!'",
+        "Egy hasonló mítoszból származó, de itt nem helyes részlet",
+        "Egy jól hangzó, de összekevert szereplő/helyszín",
+        "Egy 'majdnem igaz' válasz – pont ettől csapda 🙂",
+        "Egy túl modern magyarázat (ami nem illik ide)"
+      ]
     },
     {
       "id": "q042",
@@ -1540,7 +2079,21 @@
       "explanation": "",
       "source": {
         "book_page": 99
-      }
+      },
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "János (mert sokan J-betűsek)",
+        "József (mert apuka is fontos)",
+        "Mária Magdolna (mert ismert szereplő)",
+        "„Jézus, aki 'csodát' ígért, de csak jó tanácsot adott”",
+        "Olümposz",
+        "Kréta",
+        "Jeruzsálem"
+      ]
     },
     {
       "id": "q043",
@@ -1556,7 +2109,21 @@
       "explanation": "",
       "source": {
         "book_page": 99
-      }
+      },
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Názáret (mert könnyű összekeverni)",
+        "Egy fogadó deluxe lakosztálya (csak drága volt)",
+        "Jerikó (mert jó hangzású)",
+        "„Betlehem, mert ott volt a legjobb kebab”",
+        "Mert Zeusz így döntött (és kész)",
+        "Mert valaki eltévesztette az utasítást",
+        "Mert 'szabály az szabály' az Olümposzon"
+      ]
     },
     {
       "id": "q044",
@@ -1575,7 +2142,18 @@
       "explanation": "",
       "source": {
         "book_page": 99
-      }
+      },
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Egy zsömle és egy aláírt képeslap",
+        "Három pár zokni (mert az mindig kell)",
+        "Egy térkép-app előfizetés",
+        "„Ajándék: arany, tömjén, mirha helyett csoki”"
+      ]
     },
     {
       "id": "q045",
@@ -1591,7 +2169,18 @@
       "explanation": "",
       "source": {
         "book_page": 99
-      }
+      },
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Augustus császár (mert ő is vezető volt)",
+        "Pilátus (mert ő is 'híres név')",
+        "A főpapok (mert néha ők intézik)",
+        "„Heródes, aki inkább influenszertiltást rendelt el”"
+      ]
     },
     {
       "id": "q046",
@@ -1607,7 +2196,21 @@
       "explanation": "",
       "source": {
         "book_page": 99
-      }
+      },
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Augustus császár (mert ő is vezető volt)",
+        "Pilátus (mert ő is 'híres név')",
+        "A főpapok (mert néha ők intézik)",
+        "„Heródes, aki inkább influenszertiltást rendelt el”",
+        "Mert Zeusz így döntött (és kész)",
+        "Mert valaki eltévesztette az utasítást",
+        "Mert 'szabály az szabály' az Olümposzon"
+      ]
     },
     {
       "id": "q047",
@@ -1626,7 +2229,21 @@
       "explanation": "",
       "source": {
         "book_page": 100
-      }
+      },
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Péter és Pál (mert ők is bibliai nevek)",
+        "Máté és Márk (ha a helyes: Máté és Lukács, akkor csapda)",
+        "Lukács és János (mert párosítani jó)",
+        "„Az evangélium: nem e-mail, bár hasonló a neve”",
+        "Márk és Máté",
+        "Lukács és Máté",
+        "Lukács és Márk"
+      ]
     },
     {
       "id": "q048",
@@ -1642,7 +2259,21 @@
       "explanation": "",
       "source": {
         "book_page": 100
-      }
+      },
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "János (mert sokan J-betűsek)",
+        "József (mert apuka is fontos)",
+        "Mária Magdolna (mert ismert szereplő)",
+        "„Jézus, aki 'csodát' ígért, de csak jó tanácsot adott”",
+        "Kréta",
+        "Egyiptom",
+        "Delphoi"
+      ]
     },
     {
       "id": "q049",
@@ -1658,7 +2289,18 @@
       "explanation": "",
       "source": {
         "book_page": 100
-      }
+      },
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "János (mert sokan J-betűsek)",
+        "József (mert apuka is fontos)",
+        "Mária Magdolna (mert ismert szereplő)",
+        "„Jézus, aki 'csodát' ígért, de csak jó tanácsot adott”"
+      ]
     },
     {
       "id": "q050",
@@ -1674,7 +2316,18 @@
       "explanation": "",
       "source": {
         "book_page": 100
-      }
+      },
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Júdás (mert ő is tanítvány volt… csak másképp emlékeznek rá)",
+        "Péter (mert ő nagyon ismert)",
+        "Tamás (mert ő kételkedett)",
+        "„A 13. tanítvány: a jegyzetfüzet”"
+      ]
     },
     {
       "id": "q051",
@@ -1691,7 +2344,21 @@
       "explanation": "",
       "source": {
         "book_page": 75
-      }
+      },
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "A tenger sós vize (mert 'feloldotta' a viaszt)",
+        "Zeusz villáma (mert túl magasra ment)",
+        "Héphaisztosz kohójának hője (mert rossz útvonalat választott)",
+        "Egy sirálycsapat csipkedése (mert irigyek voltak)",
+        "A labirintus szellőzőrácsa (mert túl közel repült)"
+      ]
     },
     {
       "id": "q052",
@@ -1708,7 +2375,21 @@
       "explanation": "",
       "source": {
         "book_page": 76
-      }
+      },
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "A tenger sós vize (mert 'feloldotta' a viaszt)",
+        "Zeusz villáma (mert túl magasra ment)",
+        "Héphaisztosz kohójának hője (mert rossz útvonalat választott)",
+        "Egy sirálycsapat csipkedése (mert irigyek voltak)",
+        "A labirintus szellőzőrácsa (mert túl közel repült)"
+      ]
     },
     {
       "id": "q053",
@@ -1727,7 +2408,21 @@
       "explanation": "",
       "source": {
         "book_page": 77
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”",
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)"
+      ]
     },
     {
       "id": "q054",
@@ -1743,7 +2438,21 @@
       "explanation": "",
       "source": {
         "book_page": 77
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”",
+        "Poszeidón (mert ő is főisten… na jó, nem)",
+        "Hádész (mert ő is nagyhatalmú)",
+        "Apollón (mert ő is menő)"
+      ]
     },
     {
       "id": "q055",
@@ -1762,7 +2471,21 @@
       "explanation": "",
       "source": {
         "book_page": 77
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”",
+        "Apollón (mert ő is 'művész')",
+        "Hermész (mert ő is 'szakember')",
+        "„Héphaisztosz, a kovács – de ma szabó lett”"
+      ]
     },
     {
       "id": "q056",
@@ -1781,7 +2504,21 @@
       "explanation": "",
       "source": {
         "book_page": 77
-      }
+      },
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”",
+        "Héphaisztosz (mert ő is 'szerszámos')",
+        "Apollón (mert ő is gyors… a dallamokkal)",
+        "„Hermész, a csomagszállító expressz”"
+      ]
     },
     {
       "id": "q057",
@@ -1799,7 +2536,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q058",
@@ -1815,7 +2566,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q059",
@@ -1831,7 +2596,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
+      ]
     },
     {
       "id": "q060",
@@ -1847,7 +2626,21 @@
       "explanation": "",
       "source": {
         "book_page": 79
-      }
+      },
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Mert Zeusz így döntött (és kész)",
+        "Mert valaki eltévesztette az utasítást",
+        "Mert 'szabály az szabály' az Olümposzon",
+        "Mert túl kíváncsiak voltak",
+        "Mert a történetnek kellett egy csavar",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő"
+      ]
     },
     {
       "id": "q061",
@@ -1867,7 +2660,18 @@
       "explanation": "",
       "source": {
         "book_page": 99
-      }
+      },
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Pont fordítva történt minden (mert így izgalmasabb)",
+        "Kimaradt a legfontosabb rész (mert spoiler!)",
+        "Előbb volt a tanulság, aztán a történet",
+        "„Sorrend: mint a menetrend… elméletben”"
+      ]
     },
     {
       "id": "q062",
@@ -1888,7 +2692,21 @@
       "explanation": "",
       "source": {
         "book_page": 75
-      }
+      },
+      "distractors": [
+        "A tenger sós vize",
+        "A vihar szele",
+        "Poszeidón haragja",
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "A tenger sós vize (mert 'feloldotta' a viaszt)",
+        "Zeusz villáma (mert túl magasra ment)"
+      ]
     },
     {
       "id": "q063",
@@ -1909,7 +2727,21 @@
       "explanation": "",
       "source": {
         "book_page": 76
-      }
+      },
+      "distractors": [
+        "Tűzokádó sárkány",
+        "Ezerfejű kígyó",
+        "Szárnyas ló",
+        "Egy szupermarket parkoló (mert ott is el lehet tévedni)",
+        "Egy metróaluljáró csúcsidőben",
+        "Egy 'menekülőszoba' tesztverzió",
+        "Minósz palotája alatti útvesztő (de rossz városban)",
+        "Ariadné fonala helyett 'USB-kábel' segítsége",
+        "„Labirintus = ahol még a GPS is sír”",
+        "Kentaur (mert félig ez, félig az)",
+        "Szfinx (mert ő is kérdéseket ad…)",
+        "„Minó-taurusz, a 'mini bika'”"
+      ]
     },
     {
       "id": "q064",
@@ -1929,7 +2761,21 @@
       "explanation": "",
       "source": {
         "book_page": 77
-      }
+      },
+      "distractors": [
+        "Tartaroszba zárták örökre",
+        "Kővé változtatták",
+        "A tenger mélyére süllyesztették",
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”"
+      ]
     },
     {
       "id": "q065",
@@ -1949,7 +2795,21 @@
       "explanation": "",
       "source": {
         "book_page": 80
-      }
+      },
+      "distractors": [
+        "Héra",
+        "Pallasz Athéné",
+        "Erisz",
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)"
+      ]
     },
     {
       "id": "q066",
@@ -1970,7 +2830,21 @@
       "explanation": "",
       "source": {
         "book_page": 81
-      }
+      },
+      "distractors": [
+        "Athén",
+        "Spárta",
+        "Krétai Knósszosz",
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)"
+      ]
     },
     {
       "id": "q067",
@@ -1990,7 +2864,21 @@
       "explanation": "",
       "source": {
         "book_page": 100
-      }
+      },
+      "distractors": [
+        "Márk és János",
+        "Lukács és János",
+        "Máté és Márk",
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Márk és Máté",
+        "Lukács és Máté",
+        "Lukács és Márk",
+        "János és Máté"
+      ]
     },
     {
       "id": "q068",
@@ -2009,6 +2897,19 @@
         "daidalosz",
         "ikarosz",
         "daidalosz és ikarosz"
+      ],
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "Egy hasonló mítoszból származó, de itt nem helyes részlet",
+        "Egy jól hangzó, de összekevert szereplő/helyszín",
+        "Egy 'majdnem igaz' válasz – pont ettől csapda 🙂",
+        "Egy túl modern magyarázat (ami nem illik ide)"
       ]
     },
     {
@@ -2028,6 +2929,19 @@
         "féltő",
         "aggódó",
         "gondoskodó"
+      ],
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "Egy hasonló mítoszból származó, de itt nem helyes részlet",
+        "Egy jól hangzó, de összekevert szereplő/helyszín",
+        "Egy 'majdnem igaz' válasz – pont ettől csapda 🙂",
+        "Egy túl modern magyarázat (ami nem illik ide)"
       ]
     },
     {
@@ -2048,6 +2962,20 @@
         "Mert nem tudott úszni.",
         "Mert vihar volt a tengeren mindig.",
         "Mert Minósz csak a hegyeket őrizte."
+      ],
+      "distractors": [
+        "Mert nem tudott úszni.",
+        "Mert vihar volt a tengeren mindig.",
+        "Mert Minósz csak a hegyeket őrizte.",
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "Mert Zeusz így döntött (és kész)",
+        "Mert valaki eltévesztette az utasítást"
       ]
     },
     {
@@ -2067,6 +2995,19 @@
         "mértéktartás",
         "középút",
         "az engedetlenség veszélyes"
+      ],
+      "distractors": [
+        "Thészeusz (mert ő is volt a labirintusban)",
+        "Minósz (mert ő is a történetben van)",
+        "Héphaisztosz (mert ő is mesterember)",
+        "Hermész (mert ő is gyors… de nem épít labirintust)",
+        "„Daidalosz, a 'szárny-gyártó startup' alapítója”",
+        "„Daidalosz, a 'labirintus UX designer'”",
+        "„Daidalosz, aki végül ejtőernyőt ajánlott Ikarosznak”",
+        "Egy hasonló mítoszból származó, de itt nem helyes részlet",
+        "Egy jól hangzó, de összekevert szereplő/helyszín",
+        "Egy 'majdnem igaz' válasz – pont ettől csapda 🙂",
+        "Egy túl modern magyarázat (ami nem illik ide)"
       ]
     },
     {
@@ -2085,6 +3026,19 @@
       "accepted": [
         "hogy ott tartsák a minótauroszt",
         "a minótaurosz miatt"
+      ],
+      "distractors": [
+        "Egy szupermarket parkoló (mert ott is el lehet tévedni)",
+        "Egy metróaluljáró csúcsidőben",
+        "Egy 'menekülőszoba' tesztverzió",
+        "Minósz palotája alatti útvesztő (de rossz városban)",
+        "Ariadné fonala helyett 'USB-kábel' segítsége",
+        "„Labirintus = ahol még a GPS is sír”",
+        "Mert Zeusz így döntött (és kész)",
+        "Mert valaki eltévesztette az utasítást",
+        "Mert 'szabály az szabály' az Olümposzon",
+        "Mert túl kíváncsiak voltak",
+        "Mert a történetnek kellett egy csavar"
       ]
     },
     {
@@ -2105,6 +3059,20 @@
         "Zeusz",
         "Héra",
         "Apollón"
+      ],
+      "distractors": [
+        "Zeusz",
+        "Héra",
+        "Apollón",
+        "Egy szupermarket parkoló (mert ott is el lehet tévedni)",
+        "Egy metróaluljáró csúcsidőben",
+        "Egy 'menekülőszoba' tesztverzió",
+        "Minósz palotája alatti útvesztő (de rossz városban)",
+        "Ariadné fonala helyett 'USB-kábel' segítsége",
+        "„Labirintus = ahol még a GPS is sír”",
+        "Hermész",
+        "Athéné",
+        "Daidalosz"
       ]
     },
     {
@@ -2123,6 +3091,17 @@
       "accepted": [
         "lopás büntetés szenvedés kérés szabadulás",
         "lopás-büntetés-szenvedés-kérés-szabadulás"
+      ],
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”"
       ]
     },
     {
@@ -2143,6 +3122,20 @@
         "Hermész",
         "Apollón",
         "Arész"
+      ],
+      "distractors": [
+        "Hermész",
+        "Apollón",
+        "Arész",
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”"
       ]
     },
     {
@@ -2163,6 +3156,20 @@
         "Mert Prométheusz nem érzett fájdalmat.",
         "Mert a sas csak éjszaka jött.",
         "Mert a sas a szárnyát tépte le."
+      ],
+      "distractors": [
+        "Mert Prométheusz nem érzett fájdalmat.",
+        "Mert a sas csak éjszaka jött.",
+        "Mert a sas a szárnyát tépte le.",
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”"
       ]
     },
     {
@@ -2181,6 +3188,20 @@
       "accepted": [
         "heraklesz",
         "heraklész"
+      ],
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”",
+        "Athéné",
+        "Prométheusz",
+        "Daidalosz"
       ]
     },
     {
@@ -2201,6 +3222,17 @@
         "segítő",
         "áldozatvállaló",
         "az emberek jótevője"
+      ],
+      "distractors": [
+        "Sziszüphosz (mert ő is kapott 'örök feladatot')",
+        "Tantalosz (mert ő is éhezett… de másképp)",
+        "Ikarosz (mert ő is túl közel ment valamihez)",
+        "Héra (mert ő büntetni is tud)",
+        "Zeusz titkárnője (mert valakinek adminisztrálnia kellett)",
+        "„Prométheusz, aki tűz helyett LED-izzót hozott”",
+        "„A büntetés: örök jelszó-reset az Olümposzon”",
+        "„A büntetés: minden nap újraírni a házit”",
+        "„A sas helyett egy nagyon kitartó galamb”"
       ]
     },
     {
@@ -2221,6 +3253,20 @@
         "trójai király fia",
         "pásztor",
         "pásztor az ida hegyén"
+      ],
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
       ]
     },
     {
@@ -2241,6 +3287,20 @@
         "Mert aranyalmát adott Zeusznak.",
         "Mert Athéné megtiltotta a hajózást.",
         "Mert Minósz bosszút állt."
+      ],
+      "distractors": [
+        "Mert aranyalmát adott Zeusznak.",
+        "Mert Athéné megtiltotta a hajózást.",
+        "Mert Minósz bosszút állt.",
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)"
       ]
     },
     {
@@ -2260,6 +3320,20 @@
         "10 évig",
         "tiz evig",
         "tíz évig"
+      ],
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
       ]
     },
     {
@@ -2278,6 +3352,20 @@
       "accepted": [
         "odusszeusz",
         "odüsszeusz"
+      ],
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
       ]
     },
     {
@@ -2295,6 +3383,20 @@
       },
       "accepted": [
         "ilion"
+      ],
+      "distractors": [
+        "Héra (mert ő ígért neki egy VIP-helyet az Olümposzon)",
+        "Athéné (mert ő ajánlott 'instant' bölcsességet)",
+        "Artemisz (mert ő szereti a célbadobást… almával is)",
+        "Démétér (mert szerinte az alma úgyis mezőgazdasági ügy)",
+        "Poszeidón (mert nála volt a legnagyobb hullámverés)",
+        "Zeusz (mert 'apuka' mindig beleszól)",
+        "Erisz (mert ő dobta be, tehát biztos ő nyert…)",
+        "Héphaisztosz (mert ő kovácsolta az almát… ja nem)",
+        "Apollón (mert ő a 'legszebb' dallal érvelt)",
+        "Hermész (mert ő volt a futár, és 'véletlenül' magának ítélte)",
+        "Aphrodité helyett 'Afro-díszítő' (mert csillogott a ruha)",
+        "„A legszebb az, aki nem kérdezi” (ez volt Parisz csapda-válasza)"
       ]
     },
     {
@@ -2315,6 +3417,20 @@
         "Mindig varázsigékkel kezdődnek.",
         "Szerzőjük mindig ismert.",
         "Csak állatok a szereplőik."
+      ],
+      "distractors": [
+        "Mindig varázsigékkel kezdődnek.",
+        "Szerzőjük mindig ismert.",
+        "Csak állatok a szereplőik.",
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)",
+        "Szerző által kitalált mese modern helyszínekkel"
       ]
     },
     {
@@ -2336,6 +3452,18 @@
         "mesefordulatok",
         "tipikus mesekezdés",
         "tipikus mesebefejezés"
+      ],
+      "distractors": [
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)",
+        "Szerző által kitalált mese modern helyszínekkel",
+        "Legendás történet szentekről és csodáikról"
       ]
     },
     {
@@ -2356,6 +3484,20 @@
         "Csak vicces állattörténetek",
         "Csak szerelmes versek",
         "Csak receptek és tanácsok"
+      ],
+      "distractors": [
+        "Csak vicces állattörténetek",
+        "Csak szerelmes versek",
+        "Csak receptek és tanácsok",
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)",
+        "Szerző által kitalált mese modern helyszínekkel"
       ]
     },
     {
@@ -2376,6 +3518,17 @@
         "szóban terjed",
         "szájhagyomány",
         "szajhagyomany"
+      ],
+      "distractors": [
+        "Szerzője mindig ismert és pontos dátummal rendelkezik",
+        "Mindig valós történelmi személyekről szól",
+        "Csak tudományos tényeket közöl",
+        "Minden mondat végén rímel (mint egy rap)",
+        "Mindig ugyanazzal a mondattal végződik: 'iratkozz fel!'",
+        "Egy hasonló mítoszból származó, de itt nem helyes részlet",
+        "Egy jól hangzó, de összekevert szereplő/helyszín",
+        "Egy 'majdnem igaz' válasz – pont ettől csapda 🙂",
+        "Egy túl modern magyarázat (ami nem illik ide)"
       ]
     },
     {
@@ -2396,6 +3549,16 @@
         "Sok változata van",
         "Mindig névtelen",
         "Csak szóban terjed"
+      ],
+      "distractors": [
+        "Sok változata van",
+        "Mindig névtelen",
+        "Csak szóban terjed",
+        "Szerzője mindig ismert és pontos dátummal rendelkezik",
+        "Mindig valós történelmi személyekről szól",
+        "Csak tudományos tényeket közöl",
+        "Minden mondat végén rímel (mint egy rap)",
+        "Mindig ugyanazzal a mondattal végződik: 'iratkozz fel!'"
       ]
     },
     {
@@ -2416,6 +3579,18 @@
         "összeiras miatt",
         "a császár rendelete miatt",
         "a csaszar rendelete miatt"
+      ],
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Mert Zeusz így döntött (és kész)",
+        "Mert valaki eltévesztette az utasítást",
+        "Mert 'szabály az szabály' az Olümposzon",
+        "Mert túl kíváncsiak voltak",
+        "Mert a történetnek kellett egy csavar"
       ]
     },
     {
@@ -2436,6 +3611,17 @@
         "aranyat tömjént mirhát",
         "arany,tömjén,mirha",
         "arany tomjen mirha"
+      ],
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Egy hasonló mítoszból származó, de itt nem helyes részlet",
+        "Egy jól hangzó, de összekevert szereplő/helyszín",
+        "Egy 'majdnem igaz' válasz – pont ettől csapda 🙂",
+        "Egy túl modern magyarázat (ami nem illik ide)"
       ]
     },
     {
@@ -2456,6 +3642,20 @@
         "Trója királya",
         "A görögök hadvezére",
         "Krétai király"
+      ],
+      "distractors": [
+        "Trója királya",
+        "A görögök hadvezére",
+        "Krétai király",
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Athéné",
+        "Poszeidón",
+        "Thészeusz",
+        "Héphaisztosz"
       ]
     },
     {
@@ -2476,6 +3676,20 @@
         "Elromlott a szekerük.",
         "Elveszett az aranyalma.",
         "Nem találták Jeruzsálemet."
+      ],
+      "distractors": [
+        "Elromlott a szekerük.",
+        "Elveszett az aranyalma.",
+        "Nem találták Jeruzsálemet.",
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Mert Zeusz így döntött (és kész)",
+        "Mert valaki eltévesztette az utasítást",
+        "Mert 'szabály az szabály' az Olümposzon",
+        "Mert túl kíváncsiak voltak"
       ]
     },
     {
@@ -2495,6 +3709,17 @@
         "gaspár menyhért boldizsár",
         "gáspár menyhért boldizsár",
         "gaspár,menyhért,boldizsár"
+      ],
+      "distractors": [
+        "Názáret (mert Betlehem és Názáret gyakran keveredik)",
+        "Jeruzsálem (mert 'ott szoktak a nagy dolgok történni')",
+        "„A pásztorok helyett a szomszédok jöttek át”",
+        "„Az angyal helyett egy futár hozta az üzenetet”",
+        "„A csillag helyett egy iránytű app mutatta az utat”",
+        "Egy hasonló mítoszból származó, de itt nem helyes részlet",
+        "Egy jól hangzó, de összekevert szereplő/helyszín",
+        "Egy 'majdnem igaz' válasz – pont ettől csapda 🙂",
+        "Egy túl modern magyarázat (ami nem illik ide)"
       ]
     },
     {
@@ -2515,6 +3740,20 @@
         "te se tedd felebarátodnak.",
         "megnyílik a nyelve.",
         "úgy arat."
+      ],
+      "distractors": [
+        "te se tedd felebarátodnak.",
+        "megnyílik a nyelve.",
+        "úgy arat.",
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)",
+        "Szerző által kitalált mese modern helyszínekkel"
       ]
     },
     {
@@ -2535,6 +3774,20 @@
         "fogat fogért.",
         "megnyílik a nyelve.",
         "a szegénynek egy sincs."
+      ],
+      "distractors": [
+        "fogat fogért.",
+        "megnyílik a nyelve.",
+        "a szegénynek egy sincs.",
+        "Egy konkrét személy neve (mert minden fogalom személy 🙂)",
+        "Egy tárgy, amit a táskában hordasz (pl. vonalzó)",
+        "Egy recept (mert leír valamit)",
+        "Egy időjárás-jelentés (mert az is magyaráz)",
+        "Egy titkos kód (mert úgy hangzik)",
+        "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+        "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+        "Egy nép eredetmagyarázó története (de istenek nélkül)",
+        "Szerző által kitalált mese modern helyszínekkel"
       ]
     }
   ]

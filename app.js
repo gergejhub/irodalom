@@ -295,130 +295,87 @@ function renderMcq(item){
 }
 
 function buildChoices(item){
-  // Make MCQ harder (and a bit playful) by generating plausible + tricky distractors.
+  // Build MCQ choices WITHOUT borrowing other questions' correct answers.
+  // Goal: every question gets its own relevant + playful distractors (from a dedicated distractor DB).
   const correct = String(item.answer || "").trim();
   const tags = item.tags || [];
-  const distractors = new Set();
+  const distractors = [];
 
-  const add = (s)=>{
+  const push = (s)=>{
     const v = String(s||"").trim();
     if(!v) return;
     if(v.toLowerCase() === correct.toLowerCase()) return;
-    if(distractors.has(v)) return;
-    distractors.add(v);
+    distractors.push(v);
   };
 
-  // 1) Curated, tag-based distractor pools (short but high-quality)
+  // 1) Per-question distractors (the main database)
+  if(Array.isArray(item.distractors)){
+    item.distractors.forEach(push);
+  }
+
+  // 2) Tag-based backup pools (extra variety / safety)
   const pools = {
     "daidalosz": [
-      "A Minótaurosz lehelete",
-      "Héphaisztosz kohójának hője",
-      "Egy sirálycsapat csipkedése",
-      "A labirintus „szellőzőrácsa”"
+      "Héphaisztosz (mert ő is mesterember – csak nem itt)",
+      "Minósz (mert ő is érintett – csak nem a válasz)",
+      "Thészeusz (mert ő is a történetben van)",
+      "„Daidalosz, a labirintus UX guruja”"
     ],
     "ikarosz": [
-      "A tengeri pára (amitől a viasz „megduzzadt”)",
-      "A túl sok szárnycsapás miatti „túlmelegedés”",
-      "Egy napernyő hiánya (pedig kellett volna)",
-      "Apja mérnöki jegyzeteinek súlya"
+      "A tenger sós vize (csapda-válasz)",
+      "Zeusz villáma (látványos, de nem ez)",
+      "Egy sirálycsapat csipkedése (viccesen plauzibilis)"
     ],
-    "prometheus": [
-      "Gördülő sziklát kellett fel-le tolnia (Sziszüphosz büntetése)",
-      "Örök éhség–szomjúság gyötörte (Tantalosz büntetése)",
-      "Egyetlen pillantástól kővé változott",
-      "Minden nap újra kezdődő „büntető feladatot” kapott"
+    "prometheusz": [
+      "Sziszüphosz büntetése (klasszikus keverés)",
+      "Tantalosz büntetése (klasszikus keverés)",
+      "„Örök jelszó-reset az Olümposzon”"
     ],
-    "parisz": [
-      "Athéné (mert „okosabbnak tűnt”)",
-      "Héra (mert „királynői”)",
-      "Artemisz (mert szerette a rendet)",
-      "Démétér (mert jó termést ígért)"
+    "parizs": [
+      "Héra (mert ő is versenyzett)",
+      "Athéné (mert ő is versenyzett)",
+      "Erisz (mert ő dobta be az almát)"
     ],
     "biblia": [
-      "„Mert eltévedtek a csillagkövetésben”",
-      "„Mert Heródes hirtelen meggondolta magát”",
-      "„Mert elfogyott az úti elemózsia”",
-      "„Mert rossz irányba mentek a térképen”"
-    ],
-    "mese": [
-      "Sok változata van és névtelen szerzőtől származik",
-      "Csak szóban terjed és mindig ugyanúgy kezdődik",
-      "Mindig állatok a szereplői, tanulság nélkül",
-      "Minden mondat végén rímel"
+      "Názáret (gyakori keverés)",
+      "Jeruzsálem (mert nagy város)",
+      "„A csillag helyett egy iránytű app”"
     ],
     "fogalom": [
-      "Szerzőjük mindig ismert, mint egy tankönyvfejezetnek",
-      "Mindig varázsigékkel kezdődnek, mint egy bűvésztrükk",
-      "Csak állatok szerepelnek bennük, mint egy állatmese",
-      "Mindig ugyanaz a befejezésük, mint egy reklámnak"
+      "Igaz történelmi eseményekről szóló, pontosan adatolt elbeszélés",
+      "Tanulságos állatmese, ahol mindig egy róka a főszereplő",
+      "Szerző által kitalált mese modern helyszínekkel"
     ]
   };
 
   tags.forEach(t=>{
-    (pools[t]||[]).forEach(add);
+    (pools[t]||[]).forEach(push);
   });
 
-  // 2) Near-miss generators (the "trick")
-  const lcPrompt = String(item.prompt||"").toLowerCase();
+  // 3) Dedupe + shuffle + take 3
+  const uniq = [];
+  const seen = new Set();
+  distractors.forEach(s=>{
+    const k = s.toLowerCase();
+    if(seen.has(k)) return;
+    seen.add(k);
+    uniq.push(s);
+  });
 
-  // Pair-type answers (e.g., "Máté és Lukács")
-  if(/\s+és\s+/.test(correct) && (lcPrompt.includes("melyik két") || lcPrompt.includes("melyik ket"))){
-    const parts = correct.split(/\s+és\s+/).map(s=>s.trim());
-    const candidates = ["Máté", "Márk", "Lukács", "János"];
-    if(parts.length === 2){
-      candidates.forEach(a=>{
-        candidates.forEach(b=>{
-          if(a===b) return;
-          const pair = `${a} és ${b}`;
-          if(pair.toLowerCase() !== correct.toLowerCase()) add(pair);
-        });
-      });
-    }
+  const shuffled = shuffle(uniq);
+  const finalWrongs = shuffled.slice(0,3);
+
+  // Absolute last-resort fallback (should never trigger if data has distractors)
+  while(finalWrongs.length < 3){
+    const fb = [
+      "Egy 'majdnem igaz' válasz – pont ettől csapda 🙂",
+      "Egy jól hangzó, de összekevert szereplő/helyszín",
+      "Egy túl modern magyarázat (ami nem illik ide)"
+    ][finalWrongs.length];
+    if(fb) finalWrongs.push(fb);
+    else break;
   }
 
-  // Punishment / consequence questions: swap in other famous punishments
-  if(lcPrompt.includes("büntet") || lcPrompt.includes("buntet") || lcPrompt.includes("következ") || lcPrompt.includes("kovetkez")){
-    add("Örökké vizet látott, de nem ihatott belőle.");
-    add("Egy sziklát görgetett fel, ami mindig visszagurult.");
-    add("A hangja visszhanggá vált, és eltűnt a teste.");
-  }
-
-  // Proverb completion: use other proverb endings as traps
-  if(lcPrompt.includes("fejezd be")){
-    add("… megnyílik a nyelve.");
-    add("… te se tedd felebarátodnak.");
-    add("… a szegénynek egy sincs.");
-    add("… annak Isten is megsegít.");
-  }
-
-  // Creature definitions: change one detail (plausible but wrong)
-  if(correct.toLowerCase().includes("félig") || correct.toLowerCase().includes("felig")){
-    add("Félig ember, félig ló testű lény (kentaur)");
-    add("Félig ember, félig oroszlán testű szörny (szfinx)");
-    add("Félig ember, félig kígyó testű lény");
-  }
-
-  // 3) Data-driven distractors from same-tag answers (curriculum-aligned)
-  const pool = state.data.qa
-    .filter(q=>q && q.answer && q.id !== item.id)
-    .filter(q=> (q.tags||[]).some(t => tags.includes(t)))
-    .map(q=>String(q.answer).trim())
-    .filter(a=>a && a.toLowerCase() !== correct.toLowerCase());
-
-  const targetLen = correct.length;
-  pool.sort((a,b)=>Math.abs(a.length-targetLen)-Math.abs(b.length-targetLen));
-  shuffle(pool).forEach(add);
-
-  // 4) Ensure we have 3 distractors (fallbacks stay school-friendly)
-  const fallbacks = [
-    "Egy hirtelen jött „isteni félreértés”",
-    "A Tanárnő szigorú pillantása (de ez nem mítosz 🙂)",
-    "A „Görög istenek” családi vitája",
-    "Egy túl jól sikerült csavar a történetben"
-  ];
-  fallbacks.forEach(add);
-
-  const finalWrongs = Array.from(distractors).slice(0,3);
   return [correct, ...finalWrongs];
 }
 
