@@ -1,13 +1,15 @@
 {
   "meta": {
     "title": "Múltunk a mítoszokban – gyakorló",
-    "version": "1.0.0",
+    "version": "v6",
     "created": "2026-02-17T11:03:02.837332Z",
     "source": "Tankönyv 74–100 (csatolt PDF) + feladatdobozok",
     "language": "hu",
     "generated_at": "2026-02-17T12:24:21.543460+00:00",
     "cards": 70,
-    "qa": 95
+    "qa": 95,
+    "updated_at": "2026-02-17T18:53:47Z",
+    "notes": "Bugfix + PDF-alapú bővítés (magyarázó részek) + duplikált promptok pontosítása."
   },
   "cards": [
     {
@@ -636,7 +638,7 @@
     },
     {
       "id": "c053",
-      "front": "Ki volt a Minótaurosz?",
+      "front": "Minótaurosz – milyen lény volt és hol élt?",
       "back": "Félig ember, félig bika testű lény; a labirintusban élt, és áldozatokat kapott.",
       "tags": [
         "labirintus"
@@ -833,6 +835,97 @@
       ],
       "source": {
         "book_page": 82
+      }
+    },
+    {
+      "id": "c071",
+      "front": "Mítosz – mire szolgált régen?",
+      "back": "A világ és természeti jelenségek megmagyarázására, valamint a közösség eredetének és értékeinek elmesélésére.",
+      "tags": [
+        "mitosz",
+        "fogalom"
+      ],
+      "difficulty": 2,
+      "source": {
+        "pdf_page": 1
+      }
+    },
+    {
+      "id": "c072",
+      "front": "ph ejtése (görög nevek)",
+      "back": "ph = f",
+      "tags": [
+        "nyelv",
+        "kiejtes"
+      ],
+      "difficulty": 1,
+      "source": {
+        "pdf_page": 6
+      }
+    },
+    {
+      "id": "c073",
+      "front": "th ejtése (tankönyvi szabály)",
+      "back": "th ≈ t (a t után írt h-t nem ejtjük külön)",
+      "tags": [
+        "nyelv",
+        "kiejtes"
+      ],
+      "difficulty": 1,
+      "source": {
+        "pdf_page": 6
+      }
+    },
+    {
+      "id": "c074",
+      "front": "Számkivetés",
+      "back": "Kényszerű elűzetés (száműzetés): idegenben kell élni.",
+      "tags": [
+        "daidalosz",
+        "fogalom"
+      ],
+      "difficulty": 2,
+      "source": {
+        "pdf_page": 2
+      }
+    },
+    {
+      "id": "c075",
+      "front": "Honvágy",
+      "back": "Otthon (haza) iránti erős vágyódás.",
+      "tags": [
+        "daidalosz",
+        "fogalom"
+      ],
+      "difficulty": 1,
+      "source": {
+        "pdf_page": 2
+      }
+    },
+    {
+      "id": "c076",
+      "front": "Teremtés 4. nap",
+      "back": "Világító testek: Nap, Hold, csillagok.",
+      "tags": [
+        "biblia",
+        "teremtes"
+      ],
+      "difficulty": 2,
+      "source": {
+        "pdf_page": 15
+      }
+    },
+    {
+      "id": "c077",
+      "front": "Teremtés 7. nap",
+      "back": "Isten megpihent; megáldotta és megszentelte.",
+      "tags": [
+        "biblia",
+        "teremtes"
+      ],
+      "difficulty": 1,
+      "source": {
+        "pdf_page": 15
       }
     }
   ],
@@ -2711,7 +2804,7 @@
     {
       "id": "q063",
       "type": "mcq",
-      "prompt": "Ki volt a Minótaurosz?",
+      "prompt": "Ki volt a Minótaurosz? (választós)",
       "answer": "Félig ember, félig bika testű szörny",
       "choices": [
         "Félig ember, félig bika testű szörny",
@@ -3661,7 +3754,7 @@
     {
       "id": "q092",
       "type": "mcq",
-      "prompt": "Miért nem mentek vissza a bölcsek Heródeshez?",
+      "prompt": "Miért nem mentek vissza a bölcsek Heródeshez? (választós)",
       "answer": "Álomban figyelmeztetést kaptak, hogy ne menjenek vissza.",
       "tags": [
         "biblia"
@@ -3789,6 +3882,585 @@
         "Egy nép eredetmagyarázó története (de istenek nélkül)",
         "Szerző által kitalált mese modern helyszínekkel"
       ]
+    },
+    {
+      "id": "q096",
+      "type": "typed",
+      "prompt": "Miért fontosak számunkra a mítoszok? (2 ok)",
+      "answer": "Segítenek megérteni és megmagyarázni a világot/természeti jelenségeket, és közös történeteket adnak egy nép múltjáról, hiedelmeiről, értékeiről.",
+      "accepted": [
+        "a világ megértéséhez és magyarázatához",
+        "közös eredettörténeteket adnak",
+        "magyarázzák a világot"
+      ],
+      "tags": [
+        "mitosz",
+        "fogalom"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 1
+      },
+      "distractors": []
+    },
+    {
+      "id": "q097",
+      "type": "mcq",
+      "prompt": "Mit magyaráztak a mítoszok leggyakrabban?",
+      "answer": "Természeti jelenségeket és eredeteket (honnan lett a világ/nép)",
+      "accepted": [],
+      "tags": [
+        "mitosz",
+        "fogalom"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 1
+      },
+      "distractors": [
+        "Pusztán pontos történelmi adatokat",
+        "Csak főzési recepteket",
+        "Csak modern tudományos kísérleteket"
+      ]
+    },
+    {
+      "id": "q098",
+      "type": "typed",
+      "prompt": "Mi a mitológia?",
+      "answer": "A mítoszok összessége (egy nép isten- és hőstörténeteinek rendszere); illetve ezek tanulmányozása.",
+      "accepted": [
+        "mítoszok összessége",
+        "mítoszok rendszere",
+        "mítoszok tanulmányozása"
+      ],
+      "tags": [
+        "mitosz",
+        "fogalom"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "book_page": 74
+      },
+      "distractors": []
+    },
+    {
+      "id": "q099",
+      "type": "typed",
+      "prompt": "Görög nevekben hogyan ejtjük a „ph” betűkapcsolatot?",
+      "answer": "f-nek (ph = f)",
+      "accepted": [
+        "f"
+      ],
+      "tags": [
+        "nyelv",
+        "kiejtes"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 6
+      },
+      "distractors": []
+    },
+    {
+      "id": "q100",
+      "type": "typed",
+      "prompt": "Görög nevekben hogyan ejtjük a „th” betűkapcsolatot a tankönyv szerint?",
+      "answer": "t-nek (a t után írt h-t nem ejtjük külön)",
+      "accepted": [
+        "t"
+      ],
+      "tags": [
+        "nyelv",
+        "kiejtes"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 6
+      },
+      "distractors": []
+    },
+    {
+      "id": "q101",
+      "type": "typed",
+      "prompt": "Mit jelent a számkivetés?",
+      "answer": "Kényszerű elűzetés, száműzetés; idegenben élésre kényszerítés.",
+      "accepted": [
+        "elűzetés",
+        "száműzetés",
+        "idegenbe kényszerítés"
+      ],
+      "tags": [
+        "daidalosz",
+        "fogalom"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 2
+      },
+      "distractors": []
+    },
+    {
+      "id": "q102",
+      "type": "typed",
+      "prompt": "Mit jelent a honvágy?",
+      "answer": "Erős vágyódás az otthon, a haza után.",
+      "accepted": [
+        "otthon utáni vágy",
+        "vágyódás a haza után"
+      ],
+      "tags": [
+        "daidalosz",
+        "fogalom"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 2
+      },
+      "distractors": []
+    },
+    {
+      "id": "q103",
+      "type": "typed",
+      "prompt": "Mit jelképezhet Prométheusz alakja? (1–2 gondolat)",
+      "answer": "Az emberek segítését és a tudás/haladás (tűz) megszerzését; a bátorságot és áldozatvállalást.",
+      "accepted": [
+        "tudás és haladás",
+        "az emberek segítése",
+        "áldozatvállalás"
+      ],
+      "tags": [
+        "prometheusz"
+      ],
+      "difficulty": 3,
+      "explanation": "",
+      "source": {
+        "pdf_page": 6
+      },
+      "distractors": []
+    },
+    {
+      "id": "q104",
+      "type": "mcq",
+      "prompt": "Mi Prométheusz legismertebb tette a mítoszban?",
+      "answer": "Az embereknek adta a tüzet",
+      "accepted": [],
+      "tags": [
+        "prometheusz"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 6
+      },
+      "distractors": [
+        "Megépítette a labirintust",
+        "Elrabolta Helénát",
+        "Megjósolta a vízözönt"
+      ]
+    },
+    {
+      "id": "q105",
+      "type": "typed",
+      "prompt": "A teremtéstörténet szerint mi történt a 4. napon?",
+      "answer": "Isten megteremtette a világító testeket (Nap, Hold, csillagok).",
+      "accepted": [
+        "nap hold csillagok",
+        "világító testek"
+      ],
+      "tags": [
+        "biblia",
+        "teremtes"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 15
+      },
+      "distractors": []
+    },
+    {
+      "id": "q106",
+      "type": "typed",
+      "prompt": "A teremtéstörténet szerint mi történt az 5. napon?",
+      "answer": "Isten megteremtette a tengeri élőlényeket és az égi madarakat.",
+      "accepted": [
+        "halak és madarak",
+        "tengeri lények és madarak"
+      ],
+      "tags": [
+        "biblia",
+        "teremtes"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 15
+      },
+      "distractors": []
+    },
+    {
+      "id": "q107",
+      "type": "typed",
+      "prompt": "A teremtéstörténet szerint mi történt a 6. napon?",
+      "answer": "Isten megteremtette a szárazföldi állatokat és az embert.",
+      "accepted": [
+        "állatok és ember",
+        "ember teremtése"
+      ],
+      "tags": [
+        "biblia",
+        "teremtes"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 15
+      },
+      "distractors": []
+    },
+    {
+      "id": "q108",
+      "type": "typed",
+      "prompt": "Mit tett Isten a 7. napon a teremtéstörténet szerint?",
+      "answer": "Megpihent, megáldotta és megszentelte a 7. napot.",
+      "accepted": [
+        "megpihent",
+        "megszentelte",
+        "megáldotta"
+      ],
+      "tags": [
+        "biblia",
+        "teremtes"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 15
+      },
+      "distractors": []
+    },
+    {
+      "id": "q109",
+      "type": "typed",
+      "prompt": "Hova futott ki Noé bárkája a Biblia szerint a vízözön után?",
+      "answer": "Az Ararát hegyein (Ararát hegyére).",
+      "accepted": [
+        "ararát",
+        "ararát hegyein"
+      ],
+      "tags": [
+        "biblia",
+        "noe"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 20
+      },
+      "distractors": []
+    },
+    {
+      "id": "q110",
+      "type": "typed",
+      "prompt": "Mi volt a szövetség jele a vízözön után?",
+      "answer": "A szivárvány.",
+      "accepted": [
+        "szivárvány"
+      ],
+      "tags": [
+        "biblia",
+        "noe"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 20
+      },
+      "distractors": []
+    },
+    {
+      "id": "q111",
+      "type": "typed",
+      "prompt": "Melyik 3 fia volt Noénak?",
+      "answer": "Szem, Kám és Jáfet.",
+      "accepted": [
+        "szem kám jáfet",
+        "szem, kám, jáfet"
+      ],
+      "tags": [
+        "biblia",
+        "noe"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 20
+      },
+      "distractors": []
+    },
+    {
+      "id": "q112",
+      "type": "mcq",
+      "prompt": "Miért küldött ki Noé galambot a bárkából?",
+      "answer": "Hogy kiderítse, apad-e a víz és van-e már szárazföld",
+      "accepted": [],
+      "tags": [
+        "biblia",
+        "noe"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 20
+      },
+      "distractors": [
+        "Hogy aranyat hozzon",
+        "Hogy megkeresse az Ígéret földjét",
+        "Hogy megölje a Minótauroszt"
+      ]
+    },
+    {
+      "id": "q113",
+      "type": "typed",
+      "prompt": "Ki jelent meg Máriának, hogy hírül adja Jézus születését?",
+      "answer": "Gábriel angyal.",
+      "accepted": [
+        "gábriel",
+        "gábriel angyal"
+      ],
+      "tags": [
+        "biblia",
+        "jezus"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 25
+      },
+      "distractors": []
+    },
+    {
+      "id": "q114",
+      "type": "typed",
+      "prompt": "Mit kérdezett Mária az angyaltól a hír hallatán? (lényege)",
+      "answer": "Hogyan lehetséges ez? (Hiszen férfit nem ismerek.)",
+      "accepted": [
+        "hogyan lehetséges",
+        "hogyan lehet"
+      ],
+      "tags": [
+        "biblia",
+        "jezus"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 25
+      },
+      "distractors": []
+    },
+    {
+      "id": "q115",
+      "type": "typed",
+      "prompt": "Mivel zárja Mária a válaszát az angyalnak? (lényege)",
+      "answer": "Legyen velem a te beszéded szerint.",
+      "accepted": [
+        "legyen velem a te beszéded szerint",
+        "legyen úgy, ahogy mondtad"
+      ],
+      "tags": [
+        "biblia",
+        "jezus"
+      ],
+      "difficulty": 3,
+      "explanation": "",
+      "source": {
+        "pdf_page": 25
+      },
+      "distractors": []
+    },
+    {
+      "id": "q116",
+      "type": "typed",
+      "prompt": "Milyen ajándékokat vittek a napkeleti bölcsek a gyermek Jézusnak?",
+      "answer": "Aranyat, tömjént és mirhát.",
+      "accepted": [
+        "arany tömjén mirha",
+        "aranyat tömjént mirhát"
+      ],
+      "tags": [
+        "biblia",
+        "jezus",
+        "bolcsek"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 25
+      },
+      "distractors": []
+    },
+    {
+      "id": "q117",
+      "type": "typed",
+      "prompt": "Egészítsd ki a közmondást: Ki mint vet, ...",
+      "answer": "úgy arat.",
+      "accepted": [
+        "úgy arat",
+        "ugy arat"
+      ],
+      "tags": [
+        "kozmondas"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 6
+      },
+      "distractors": []
+    },
+    {
+      "id": "q118",
+      "type": "typed",
+      "prompt": "Egészítsd ki: Szemet szemért, ...",
+      "answer": "fogat fogért.",
+      "accepted": [
+        "fogat fogért",
+        "fogat fogert"
+      ],
+      "tags": [
+        "kozmondas",
+        "biblia"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 6
+      },
+      "distractors": []
+    },
+    {
+      "id": "q119",
+      "type": "mcq",
+      "prompt": "Mit jelent a közmondás: „Ki mint vet, úgy arat”?",
+      "answer": "A tetteink következményeit viseljük",
+      "accepted": [],
+      "tags": [
+        "kozmondas"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 6
+      },
+      "distractors": [
+        "Csak a szerencse számít",
+        "Mindig a hangosabb győz",
+        "A tanulás felesleges"
+      ]
+    },
+    {
+      "id": "q120",
+      "type": "typed",
+      "prompt": "Mi a népmese?",
+      "answer": "Szerzője ismeretlen, szájhagyomány útján terjedő mese, több változattal.",
+      "accepted": [
+        "szerzője ismeretlen",
+        "szájhagyomány"
+      ],
+      "tags": [
+        "mese"
+      ],
+      "difficulty": 2,
+      "explanation": "",
+      "source": {
+        "pdf_page": 1
+      },
+      "distractors": []
+    },
+    {
+      "id": "q121",
+      "type": "typed",
+      "prompt": "Mi a műmese?",
+      "answer": "Ismert szerző által írt mese, rögzített szöveggel.",
+      "accepted": [
+        "ismert szerző",
+        "írott mese"
+      ],
+      "tags": [
+        "mese"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 1
+      },
+      "distractors": []
+    },
+    {
+      "id": "q122",
+      "type": "mcq",
+      "prompt": "Melyik igaz a népmesére?",
+      "answer": "Szerzője ismeretlen és több változata is él",
+      "accepted": [],
+      "tags": [
+        "mese"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 1
+      },
+      "distractors": [
+        "Mindig egyetlen, változatlan szövege van",
+        "Mindig valós történelmi esemény",
+        "Csak tankönyvi definíciókból áll"
+      ]
+    },
+    {
+      "id": "q123",
+      "type": "typed",
+      "prompt": "Hogyan nevezzük a Biblia két fő részét?",
+      "answer": "Ószövetség és Újszövetség.",
+      "accepted": [
+        "ószövetség és újszövetség",
+        "ó- és újszövetség"
+      ],
+      "tags": [
+        "biblia"
+      ],
+      "difficulty": 1,
+      "explanation": "",
+      "source": {
+        "pdf_page": 15
+      },
+      "distractors": []
+    },
+    {
+      "id": "q124",
+      "type": "typed",
+      "prompt": "Mi a Tóra?",
+      "answer": "Mózes öt könyve (a zsidó hagyomány alapvető könyvcsoportja).",
+      "accepted": [
+        "mózes öt könyve",
+        "mózes 5 könyve"
+      ],
+      "tags": [
+        "biblia"
+      ],
+      "difficulty": 3,
+      "explanation": "",
+      "source": {
+        "pdf_page": 15
+      },
+      "distractors": []
     }
   ]
 }

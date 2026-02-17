@@ -28,3 +28,12 @@
 > Megjegyzés: minden statisztika csak a böngésző `localStorage`-ében tárolódik.
 
 Jó gyakorlást! 🙂
+
+
+## Változások
+
+### v6
+- Duplikált promptok pontosítva (MCQ)
+- Új témák a szűrőben (Teremtés / Noé / Jézus / Bölcsek / Közmondások / Kiejtés)
+- Anyag leírás javítva (nem csonkolt)
+- PDF-alapú bővítés: magyarázó részekből +29 új kérdés és +7 új kártya
