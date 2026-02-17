@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <title>Lilike • Múltunk a mítoszokban • Készülj a dolgozatra</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img class="logo" src="assets/favicon.svg" alt=""/>
+      <div class="brandText">
+        <div class="title">Múltunk a mítoszokban</div>
+        <div class="subtitle">Telefonos gyakorló • 5. osztály • Irodalom</div>
+      </div>
+    </div>
+    <button id="btnSettings" class="iconBtn" aria-label="Beállítások">⚙️</button>
+  </header>
+
+  <main class="container">
+    <section id="home" class="card">
+      <h1>Gyakorlás Lilike dolgozatára</h1>
+      <p class="muted">Anyag: tankönyv 74–100 + füzet („Múltunk a mítoszokban” → összefoglalás). Kérdések: a tankönyvi <b>Feladatok, kérdések</b> dobozok logikája szerint.</p>
+
+      <div class="grid">
+        <button class="bigBtn" data-mode="flashcards">🃏 Gyorskártyák</button>
+        <button class="bigBtn" data-mode="quiz-mcq">✅ Kvíz (választós)</button>
+        <button class="bigBtn" data-mode="quiz-typed">⌨️ Kvíz (beírás)</button>
+        <button class="bigBtn" data-mode="srs">🧠 SRS (újra / nehéz / jó / könnyű)</button>
+      </div>
+
+      <div class="row">
+        <div class="miniCard">
+          <div class="miniTitle">Sprint</div>
+          <div class="miniBody">
+            <label class="inline">
+              <span>Set méret</span>
+              <select id="setSize">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30" selected>30</option>
+                <option value="40">40</option>
+              </select>
+            </label>
+            <label class="inline">
+              <span>Téma</span>
+              <select id="topicFilter">
+                <option value="all" selected>Kevert (minden)</option>
+                <option value="daidalosz">Daidalosz & Ikarosz</option>
+                <option value="labirintus">Krétai labirintus</option>
+                <option value="prometheusz">Prométheusz</option>
+                <option value="parizs">Parisz ítélete</option>
+                <option value="fogalom">Fogalmak (mítosz/mitológia)</option>
+                <option value="mese">Mese / műmese / népmese</option>
+                <option value="biblia">Bibliai történetek</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="miniCard">
+          <div class="miniTitle">Statisztika</div>
+          <div class="miniBody">
+            <div class="statLine"><span>Megoldott</span><b id="statDone">0</b></div>
+            <div class="statLine"><span>Pontosság</span><b id="statAcc">–</b></div>
+            <div class="statLine"><span>SRS esedékes</span><b id="statDue">–</b></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hint">
+        Tipp: a beírásos kvíz <b>kis/nagybetűtől független</b>, és a magyar ékezeteket is „elnézi” (pl. <i>Hera</i> = <i>Héra</i>).
+      </div>
+    </section>
+
+    <section id="session" class="card hidden">
+      <div class="sessionTop">
+        <button id="btnBack" class="ghost">← Vissza</button>
+        <div class="progressWrap">
+          <div class="progressMeta">
+            <span id="modeLabel">Kvíz</span>
+            <span class="muted"><span id="qIndex">1</span>/<span id="qTotal">30</span></span>
+          </div>
+          <div class="progressBar"><div id="progress" class="progress"></div></div>
+        </div>
+      </div>
+
+      <div id="prompt" class="prompt"></div>
+
+      <div id="mcq" class="answers hidden"></div>
+
+      <div id="typed" class="typed hidden">
+        <input id="typedInput" type="text" inputmode="text" autocomplete="off" placeholder="Írd be a választ…"/>
+        <button id="btnSubmit" class="primary">Ellenőrzés</button>
+      </div>
+
+      <div id="srsBtns" class="srs hidden">
+        <button data-grade="0" class="bad">Újra</button>
+        <button data-grade="1" class="warn">Nehéz</button>
+        <button data-grade="2" class="ok">Jó</button>
+        <button data-grade="3" class="good">Könnyű</button>
+      </div>
+
+      <div id="feedback" class="feedback hidden"></div>
+
+      <div class="bottomRow">
+        <button id="btnShowAnswer" class="ghost">Válasz</button>
+        <button id="btnNext" class="primary">Következő ⏎</button>
+      </div>
+    </section>
+
+    <section id="settings" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="modalCard">
+        <div class="modalHead">
+          <h2>Beállítások</h2>
+          <button id="btnCloseSettings" class="iconBtn" aria-label="Bezárás">✖️</button>
+        </div>
+
+        <label class="switchRow">
+          <span>Automatikus felolvasás</span>
+          <span class="muted">Alapból ki van kapcsolva</span>
+          <label class="switch">
+            <input id="ttsToggle" type="checkbox"/>
+            <span class="slider"></span>
+          </label>
+        </label>
+
+        <label class="switchRow">
+          <span>Enter = következő</span>
+          <span class="muted">Beírás után Enterrel lép</span>
+          <label class="switch">
+            <input id="enterToggle" type="checkbox" checked/>
+            <span class="slider"></span>
+          </label>
+        </label>
+
+        <div class="divider"></div>
+
+        <button id="btnReset" class="danger">Statisztika törlése (localStorage)</button>
+        <p class="muted small">Minden adat csak ezen az eszközön tárolódik.</p>
+
+        <div class="divider"></div>
+
+        <details>
+          <summary>Forrás</summary>
+          <p class="muted small">A kérdésbank a csatolt tankönyv-rész alapján készült (74–100. oldal). A kérdéseknél a könyv oldalszáma megjelenik magyarázatként, ha bekapcsolod a Válasz gombot.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="results" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="modalCard">
+        <div class="modalHead">
+          <h2>Vége a setnek ✅</h2>
+          <button id="btnCloseResults" class="iconBtn" aria-label="Bezárás">✖️</button>
+        </div>
+        <div class="resultGrid">
+          <div class="resultBox">
+            <div class="muted">Eredmény</div>
+            <div class="big" id="resScore">0/0</div>
+          </div>
+          <div class="resultBox">
+            <div class="muted">Pontosság</div>
+            <div class="big" id="resAcc">0%</div>
+          </div>
+          <div class="resultBox">
+            <div class="muted">Idő</div>
+            <div class="big" id="resTime">–</div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <button id="btnRetryWeak" class="primary">Gyakorold újra, ami ment rosszul</button>
+        <button id="btnHome" class="ghost">Vissza a főoldalra</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
