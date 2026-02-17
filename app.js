@@ -140,12 +140,48 @@ function byTopic(item){
 
 function pickSessionItems(){
   const setSize = state.setSize;
+
+  // FLASHCARDS: prefer real cards; if a chosen topic has no cards, fall back to QA -> synthetic flashcards
   if(state.mode === "flashcards"){
-    const pool = state.data.cards.filter(byTopic);
+    let pool = state.data.cards.filter(byTopic);
+
+    // If selected topic has 0 cards, generate temporary cards from QA so the session is never empty.
+    if(pool.length === 0 && state.topic !== "all"){
+      const qaPool = state.data.qa.filter(byTopic);
+      pool = qaPool.map(q => ({
+        id: `fc_${q.id}`,
+        front: q.q,
+        back: q.a,
+        tags: q.tags || []
+      }));
+    }
+
+    // Absolute fallback (shouldn't happen unless data is empty)
+    if(pool.length === 0){
+      pool = state.data.cards;
+    }
+
     return shuffle(pool).slice(0, setSize);
   }
 
-  const pool = state.data.qa.filter(byTopic);
+  // QA MODES: prefer QA; if a chosen topic has no QA, fall back to Cards -> synthetic QA
+  let pool = state.data.qa.filter(byTopic);
+  if(pool.length === 0 && state.topic !== "all"){
+    const cardPool = state.data.cards.filter(byTopic);
+    pool = cardPool.map(c => ({
+      id: `q_${c.id}`,
+      q: c.front,
+      a: c.back,
+      type: "typed",
+      tags: c.tags || []
+    }));
+  }
+
+  // Absolute fallback (shouldn't happen unless data is empty)
+  if(pool.length === 0){
+    pool = state.data.qa;
+  }
+
   if(state.mode === "srs"){
     const t=now();
     const due = pool.filter(q => {
