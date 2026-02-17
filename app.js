@@ -2,7 +2,7 @@
 const $ = (s)=>document.querySelector(s);
 const $$ = (s)=>Array.from(document.querySelectorAll(s));
 
-const STORAGE_KEY = "lilike_mitoszok_v1";
+const STORAGE_KEY = "lilike_mitoszok_v5";
 
 const state = {
   data: null,
@@ -409,6 +409,19 @@ function typedIsCorrect(userText, item){
   const u = normalize(userText);
   const answers = [item.answer, ...(item.accepted||[])].filter(Boolean);
 
+  // Helper: split into meaningful tokens (Hungarian-friendly basic stopwords)
+  const STOP = new Set([
+    "a","az","egy","egyik","másik","es","és","de","hogy","mert","ami","amit","aki","akik","ahol","amikor",
+    "van","volt","lesz","lett","lenne","kell","kellett","lehet","szerint","mint","is","sem","se",
+    "ra","re","ban","ben","ba","be","nak","nek","val","vel","rol","ról","tól","tol","ig","ott","itt"
+  ]);
+  const tokens = (s)=> normalize(s)
+    .replace(/[.,;:!?()\[\]{}"“”'’]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .split(" ")
+    .filter(t=> t && t.length>=3 && !STOP.has(t));
+
   // Special: "Példák:" freeform, accept if contains any listed example
   const a0 = answers[0] || "";
   if(/^példák:/i.test(a0.trim())){
@@ -417,11 +430,45 @@ function typedIsCorrect(userText, item){
     return examples.some(ex=> ex && u.includes(ex));
   }
 
+  // Matching strategy:
+  // 1) exact
+  // 2) substring (either direction) for short answers
+  // 3) token overlap for longer answers (accept partial, but not random)
   return answers.some(a=>{
     const na = normalize(a);
-    return na === u;
+
+    if(!na) return false;
+    if(na === u) return true;
+
+    // Short answers: allow partial contains (e.g. missing a word / punctuation)
+    const expTok = tokens(na);
+    const usrTok = tokens(u);
+
+    if(na.length <= 18 || expTok.length <= 3){
+      if(u && (na.includes(u) || u.includes(na))) return true;
+      // If user wrote a close variant with extra words, accept if all expected tokens are present
+      if(expTok.length && expTok.every(t => usrTok.includes(t))) return true;
+      return false;
+    }
+
+    // Longer answers: require meaningful overlap
+    if(!expTok.length) return false;
+    const setU = new Set(usrTok);
+    let hit = 0;
+    for(const t of expTok){ if(setU.has(t)) hit++; }
+
+    const ratio = hit / expTok.length;
+
+    // Require at least 2 meaningful hits and >=50% coverage of expected keywords
+    if(hit >= 2 && ratio >= 0.5) return true;
+
+    // Also accept when user typed a substantial contiguous chunk
+    if(u && u.length >= Math.min(na.length*0.55, 30) && na.includes(u)) return true;
+
+    return false;
   });
 }
+
 
 /* ---- Answer handlers ---- */
 function onAnswerMcq(chosen, btn){
