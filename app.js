@@ -15,6 +15,7 @@ const state = {
   correct: 0,
   wrongIds: new Set(),
   answered: false,
+  flashRevealed: false,
   current: null,
   settings: {
     tts: false,
@@ -190,7 +191,9 @@ function setProgress(){
 
 function renderCurrent(){
   state.answered = false;
+  state.flashRevealed = false;
   $("#feedback").classList.add("hidden");
+  $("#flashGrade").classList.add("hidden");
   $("#btnNext").textContent = "Következő ⏎";
   $("#btnNext").disabled = true;
 
@@ -225,10 +228,11 @@ function renderCurrent(){
   $("#srsBtns").classList.add("hidden");
 
   if(state.mode === "flashcards"){
-    // tap to flip
-    $("#btnShowAnswer").textContent = "Megfordít";
-    $("#btnNext").disabled = false;
+    // reveal -> self-grade (tudtam / nem tudtam)
+    $("#btnShowAnswer").textContent = "Válasz";
+    $("#btnShowAnswer").disabled = false;
     $("#btnNext").textContent = "Következő";
+    $("#btnNext").disabled = true;
   }else if(item.type === "mcq" || state.mode === "quiz-mcq"){
     $("#mcq").classList.remove("hidden");
     renderMcq(item);
@@ -245,6 +249,36 @@ function renderCurrent(){
 
   // Show Answer button
   $("#btnShowAnswer").textContent = "Válasz";
+}
+
+function showFlashAnswer(){
+  const item = state.current;
+  if(!item) return;
+  const ans = item.back;
+  const src = item.source?.book_page ? `Tankönyv: ${item.source.book_page}. o.` : "";
+  $("#feedback").innerHTML =
+    `<div><b>Válasz:</b> ${escapeHtml(String(ans))}</div>` +
+    (src ? `<div class="muted small" style="margin-top:6px">${escapeHtml(src)}</div>` : "");
+  $("#feedback").classList.remove("hidden");
+  $("#flashGrade").classList.remove("hidden");
+  state.flashRevealed = true;
+}
+
+function gradeFlash(ok){
+  if(state.answered) return;
+  const item = state.current;
+  if(!item) return;
+  registerAttempt(item.id, ok);
+  if(!ok) state.wrongIds.add(item.id);
+
+  // lock grading for this card
+  $("#flashGrade").classList.add("hidden");
+  $("#btnShowAnswer").disabled = true;
+  showFeedback(ok, null, {
+    okTitle: "✅ <b>Tudtad</b>",
+    badTitle: "❌ <b>Nem tudtad</b>",
+    hideUserAnswer: true
+  });
 }
 
 function renderMcq(item){
@@ -277,13 +311,15 @@ function stripTags(s){
   return (s||"").replace(/<[^>]+>/g,"");
 }
 
-function showFeedback(ok, userAnswer=null){
+function showFeedback(ok, userAnswer=null, opts={}){
   const item = state.current;
   const ans = (state.mode === "flashcards") ? item.back : item.answer;
   const src = item.source?.book_page ? ` • Tankönyv: ${item.source.book_page}. o.` : "";
   const expl = item.explanation ? `<div class="muted small" style="margin-top:8px">${escapeHtml(item.explanation)}${escapeHtml(src)}</div>` : `<div class="muted small" style="margin-top:8px">${escapeHtml(src)}</div>`;
-  const ua = userAnswer!==null ? `<div class="muted small" style="margin-top:6px">Válaszod: <b>${escapeHtml(String(userAnswer))}</b></div>` : "";
-  $("#feedback").innerHTML = (ok ? "✅ <b>Helyes</b>" : "❌ <b>Nem egészen</b>") +
+  const ua = (!opts.hideUserAnswer && userAnswer!==null) ? `<div class="muted small" style="margin-top:6px">Válaszod: <b>${escapeHtml(String(userAnswer))}</b></div>` : "";
+  const okTitle = opts.okTitle || "✅ <b>Helyes</b>";
+  const badTitle = opts.badTitle || "❌ <b>Nem egészen</b>";
+  $("#feedback").innerHTML = (ok ? okTitle : badTitle) +
     ua +
     `<div style="margin-top:8px"><b>Helyes válasz:</b> ${escapeHtml(String(ans))}</div>` +
     expl;
@@ -456,8 +492,16 @@ function wire(){
     const item = state.current;
     if(!item) return;
     if(state.mode === "flashcards"){
-      // flip: show back as "feedback"
-      showFeedback(true);
+      if(state.answered) return;
+      // Reveal (no scoring). Scoring happens via "Tudtam / Nem tudtam".
+      if(!state.flashRevealed){
+        showFlashAnswer();
+      }else{
+        // hide answer to peek again
+        $("#feedback").classList.add("hidden");
+        $("#flashGrade").classList.add("hidden");
+        state.flashRevealed = false;
+      }
       return;
     }
     // show without counting attempt
@@ -467,6 +511,10 @@ function wire(){
     $("#feedback").classList.remove("hidden");
     $("#btnNext").disabled = false;
   });
+
+  // Flashcards self-grade buttons
+  $("#btnKnew").addEventListener("click", ()=> gradeFlash(true));
+  $("#btnDidnt").addEventListener("click", ()=> gradeFlash(false));
 
   $("#btnSubmit").addEventListener("click", onSubmitTyped);
   $("#typedInput").addEventListener("keydown", (e)=>{

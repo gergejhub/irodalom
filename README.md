@@ -6,7 +6,7 @@
 - **Kérdéstípusok:** definíciók, szereplők/helyszínek, ok-okozat, sorrend, tanulságok, összehasonlítás
 
 ## Funkciók
-- 🃏 **Gyorskártyák** (front/back)
+- 🃏 **Gyorskártyák** (front/back) – a *Válasz* után választhatsz: **Tudtam / Nem tudtam** (statisztikához)
 - ✅ **Kvíz (választós)** – 4 opció, azonnali visszajelzés
 - ⌨️ **Kvíz (beírás)** – kis/nagybetű és ékezet-toleráns ellenőrzés
 - 🧠 **SRS** (újra / nehéz / jó / könnyű) – egyszerű SM-2 jellegű ütemezés

@@ -4,7 +4,10 @@
     "version": "1.0.0",
     "created": "2026-02-17T11:03:02.837332Z",
     "source": "Tankönyv 74–100 (csatolt PDF) + feladatdobozok",
-    "language": "hu"
+    "language": "hu",
+    "generated_at": "2026-02-17T12:24:21.543460+00:00",
+    "cards": 70,
+    "qa": 95
   },
   "cards": [
     {
@@ -606,6 +609,230 @@
       ],
       "source": {
         "book_page": 100
+      }
+    },
+    {
+      "id": "c051",
+      "front": "Miért menekült el Daidalosz Krétáról?",
+      "back": "Mert Minósz király fogságban tartotta, és nem engedte el (nehogy elárulja a labirintus titkát).",
+      "tags": [
+        "daidalosz",
+        "labirintus"
+      ],
+      "source": {
+        "book_page": 76
+      }
+    },
+    {
+      "id": "c052",
+      "front": "Ki volt Minósz, és mi köze a labirintushoz?",
+      "back": "Krétai király; Daidalosszal építtetett föld alatti labirintust a Minótaurosz számára.",
+      "tags": [
+        "labirintus"
+      ],
+      "source": {
+        "book_page": 76
+      }
+    },
+    {
+      "id": "c053",
+      "front": "Ki volt a Minótaurosz?",
+      "back": "Félig ember, félig bika testű lény; a labirintusban élt, és áldozatokat kapott.",
+      "tags": [
+        "labirintus"
+      ],
+      "source": {
+        "book_page": 76
+      }
+    },
+    {
+      "id": "c054",
+      "front": "Mi volt Daidalosz apai tanácsa Ikarosznak repülés előtt?",
+      "back": "Tartsa a középutat: ne repüljön túl alacsonyan a tenger fölött és ne túl magasan a naphoz közel.",
+      "tags": [
+        "daidalosz"
+      ],
+      "source": {
+        "book_page": 75
+      }
+    },
+    {
+      "id": "c055",
+      "front": "Miért zuhant a tengerbe Ikarosz?",
+      "back": "Túl magasan repült, a nap felmelegítette/megolvadt a viasz, és szétestek a szárnyai.",
+      "tags": [
+        "daidalosz"
+      ],
+      "source": {
+        "book_page": 75
+      }
+    },
+    {
+      "id": "c056",
+      "front": "Honnan kapta a nevét az Ikaroszi-tenger?",
+      "back": "Ikarosz haláláról: a tenger elnyelte, ahol a tollak a habokban maradtak.",
+      "tags": [
+        "daidalosz"
+      ],
+      "source": {
+        "book_page": 75
+      }
+    },
+    {
+      "id": "c057",
+      "front": "Mit adott Prométheusz az embereknek a mítosz szerint?",
+      "back": "Ellopta az égi tüzet és az embereknek adta; ezzel mesterségeket, tudást és műveltséget kaptak.",
+      "tags": [
+        "prometheusz"
+      ],
+      "source": {
+        "book_page": 77
+      }
+    },
+    {
+      "id": "c058",
+      "front": "Mi volt Prométheusz büntetése Zeusz parancsára?",
+      "back": "A Kaukázus sziklájához láncolták, és egy sas naponta marcangolta a megújuló máját.",
+      "tags": [
+        "prometheusz"
+      ],
+      "source": {
+        "book_page": 77
+      }
+    },
+    {
+      "id": "c059",
+      "front": "Kik szerepelnek a Prométheusz-történetben kiemelten a tankönyvben?",
+      "back": "Zeusz, Prométheusz, Héphaisztosz, Hermész (és később Héraklész).",
+      "tags": [
+        "prometheusz"
+      ],
+      "source": {
+        "book_page": 77
+      }
+    },
+    {
+      "id": "c060",
+      "front": "Hogyan szabadult ki Prométheusz végül?",
+      "back": "Héraklész megölte a sast; Prométheusz kiszabadulását Zeusz is engedte (a történet szerint).",
+      "tags": [
+        "prometheusz"
+      ],
+      "source": {
+        "book_page": 78
+      }
+    },
+    {
+      "id": "c061",
+      "front": "Mit jelképez gyakran a tűz a Prométheusz-mítoszban?",
+      "back": "A műveltséget, a tudást, de a szenvedést/megtisztulást is (jelképpé vált az irodalomban).",
+      "tags": [
+        "prometheusz",
+        "fogalom"
+      ],
+      "source": {
+        "book_page": 78
+      }
+    },
+    {
+      "id": "c062",
+      "front": "Mi volt az aranyalma felirata a történetben?",
+      "back": "„A legszebbnek!”",
+      "tags": [
+        "parizs"
+      ],
+      "source": {
+        "book_page": 80
+      }
+    },
+    {
+      "id": "c063",
+      "front": "Kinek a lakodalmán dobta be Erisz az aranyalmát?",
+      "back": "Peleusz és Thetisz lakodalmán (csak Eriszt nem hívták meg).",
+      "tags": [
+        "parizs"
+      ],
+      "source": {
+        "book_page": 80
+      }
+    },
+    {
+      "id": "c064",
+      "front": "Mivel csábította Héra Páriszt?",
+      "back": "Hatalommal/uralommal: egész Ázsiát ígérte neki.",
+      "tags": [
+        "parizs"
+      ],
+      "source": {
+        "book_page": 80
+      }
+    },
+    {
+      "id": "c065",
+      "front": "Mivel csábította Pallasz Athéné Páriszt?",
+      "back": "Bölcsességgel/értelemmel és minden művészet megtanításával, hősi oltalmazással.",
+      "tags": [
+        "parizs"
+      ],
+      "source": {
+        "book_page": 80
+      }
+    },
+    {
+      "id": "c066",
+      "front": "Mivel csábította Aphrodité Páriszt?",
+      "back": "A legszebb földi asszony szerelmével (Helené).",
+      "tags": [
+        "parizs"
+      ],
+      "source": {
+        "book_page": 80
+      }
+    },
+    {
+      "id": "c067",
+      "front": "Mi lett Párisz döntésének következménye a mítosz szerint?",
+      "back": "Párisz elrabolta Helenét, ami a trójai háborúhoz vezetett.",
+      "tags": [
+        "parizs"
+      ],
+      "source": {
+        "book_page": 81
+      }
+    },
+    {
+      "id": "c068",
+      "front": "A mítosz műneme a tankönyv összegzése szerint?",
+      "back": "Epika (eseménysort, történetet mond el).",
+      "tags": [
+        "fogalom"
+      ],
+      "source": {
+        "book_page": 81
+      }
+    },
+    {
+      "id": "c069",
+      "front": "Miért nem „mese” a Prométheusz-történet a tankönyv szerint?",
+      "back": "Hiányoznak belőle a mesére jellemző állandó mesefordulatok és tipikus mesekezdés/mesebefejezés.",
+      "tags": [
+        "fogalom",
+        "prometheusz"
+      ],
+      "source": {
+        "book_page": 79
+      }
+    },
+    {
+      "id": "c070",
+      "front": "Miben különbözik a népmese a műmesétől?",
+      "back": "A népmese szerzője ismeretlen és sok változata van (szájhagyomány), a műmese szerzője ismert és írott formában terjed.",
+      "tags": [
+        "mese",
+        "fogalom"
+      ],
+      "source": {
+        "book_page": 82
       }
     }
   ],
@@ -1764,6 +1991,551 @@
       "source": {
         "book_page": 100
       }
+    },
+    {
+      "id": "q068",
+      "type": "typed",
+      "prompt": "Kik a Daidalosz és Ikarosz történet szereplői? (legalább 2)",
+      "answer": "Daidalosz, Ikarosz",
+      "tags": [
+        "daidalosz"
+      ],
+      "difficulty": 2,
+      "explanation": "A feladatdoboz első kérdése a szereplők felsorolása (apa és fia).",
+      "source": {
+        "book_page": 76
+      },
+      "accepted": [
+        "daidalosz",
+        "ikarosz",
+        "daidalosz és ikarosz"
+      ]
+    },
+    {
+      "id": "q069",
+      "type": "typed",
+      "prompt": "Milyen apának tartod Daidaloszt? Indokold 1-2 szóval!",
+      "answer": "Féltő, gondoskodó",
+      "tags": [
+        "daidalosz"
+      ],
+      "difficulty": 2,
+      "explanation": "A magyarázó szöveg szerint a történetben a gyengéd szülői szeretet, féltés és aggódalom is megjelenik.",
+      "source": {
+        "book_page": 76
+      },
+      "accepted": [
+        "féltő",
+        "aggódó",
+        "gondoskodó"
+      ]
+    },
+    {
+      "id": "q070",
+      "type": "mcq",
+      "prompt": "Miért nem választhatott Daidalosz földi vagy tengeri menekülőutat?",
+      "answer": "Mert minden oldalról tenger zárta el Krétát.",
+      "tags": [
+        "daidalosz"
+      ],
+      "difficulty": 2,
+      "explanation": "A szöveg szerint a szigetet tenger vette körül, ezért a „levegő” maradt.",
+      "source": {
+        "book_page": 75
+      },
+      "choices": [
+        "Mert minden oldalról tenger zárta el Krétát.",
+        "Mert nem tudott úszni.",
+        "Mert vihar volt a tengeren mindig.",
+        "Mert Minósz csak a hegyeket őrizte."
+      ]
+    },
+    {
+      "id": "q071",
+      "type": "typed",
+      "prompt": "Mi a történet tanulsága Daidalosz és Ikarosz esetében?",
+      "answer": "A mértéktartás, a középút keresése fontos; az engedetlenség veszélyes.",
+      "tags": [
+        "daidalosz"
+      ],
+      "difficulty": 2,
+      "explanation": "A feladatok között kiemelt erény a mértéktartás és a középút, valamint az engedetlenség veszélye.",
+      "source": {
+        "book_page": 76
+      },
+      "accepted": [
+        "mértéktartás",
+        "középút",
+        "az engedetlenség veszélyes"
+      ]
+    },
+    {
+      "id": "q072",
+      "type": "typed",
+      "prompt": "Miért épült a krétai labirintus?",
+      "answer": "Hogy ott tartsák a Minótauroszt (és ne találjon ki).",
+      "tags": [
+        "labirintus"
+      ],
+      "difficulty": 2,
+      "explanation": "A tankönyv szerint aki egyszer a palotába került, nem tudott kijutni, és a Minótaurosz áldozata lett.",
+      "source": {
+        "book_page": 76
+      },
+      "accepted": [
+        "hogy ott tartsák a minótauroszt",
+        "a minótaurosz miatt"
+      ]
+    },
+    {
+      "id": "q073",
+      "type": "mcq",
+      "prompt": "Ki büntette meg Minószt, mert nem áldozott neki?",
+      "answer": "Poszeidón",
+      "tags": [
+        "labirintus"
+      ],
+      "difficulty": 2,
+      "explanation": "A doboz szerint Minósz nem áldozta fel az állatot, ezért Poszeidón büntette.",
+      "source": {
+        "book_page": 76
+      },
+      "choices": [
+        "Poszeidón",
+        "Zeusz",
+        "Héra",
+        "Apollón"
+      ]
+    },
+    {
+      "id": "q074",
+      "type": "typed",
+      "prompt": "Sorold fel a Prométheusz-történet kulcsszavait a feladat szerint!",
+      "answer": "lopás → büntetés → szenvedés → kérés → szabadulás",
+      "tags": [
+        "prometheusz"
+      ],
+      "difficulty": 2,
+      "explanation": "A feladatdobozban nyilakkal jelölt kulcsszavak szerepelnek ebben a sorrendben.",
+      "source": {
+        "book_page": 79
+      },
+      "accepted": [
+        "lopás büntetés szenvedés kérés szabadulás",
+        "lopás-büntetés-szenvedés-kérés-szabadulás"
+      ]
+    },
+    {
+      "id": "q075",
+      "type": "mcq",
+      "prompt": "Ki láncolta Prométheuszt Zeusz parancsára a sziklához?",
+      "answer": "Héphaisztosz",
+      "tags": [
+        "prometheusz"
+      ],
+      "difficulty": 2,
+      "explanation": "A szöveg szerint Zeusz Héphaisztoszt hívta és megparancsolta a láncolást.",
+      "source": {
+        "book_page": 77
+      },
+      "choices": [
+        "Héphaisztosz",
+        "Hermész",
+        "Apollón",
+        "Arész"
+      ]
+    },
+    {
+      "id": "q076",
+      "type": "mcq",
+      "prompt": "Miért volt különösen kegyetlen a sas büntetése?",
+      "answer": "Mert Prométheusz mája naponta újra megújult.",
+      "tags": [
+        "prometheusz"
+      ],
+      "difficulty": 2,
+      "explanation": "A szövegben: naponta megújuló máján lakmározott a sas.",
+      "source": {
+        "book_page": 78
+      },
+      "choices": [
+        "Mert Prométheusz mája naponta újra megújult.",
+        "Mert Prométheusz nem érzett fájdalmat.",
+        "Mert a sas csak éjszaka jött.",
+        "Mert a sas a szárnyát tépte le."
+      ]
+    },
+    {
+      "id": "q077",
+      "type": "typed",
+      "prompt": "Ki ölte meg a sast, és ezzel segített Prométheusznak?",
+      "answer": "Héraklész",
+      "tags": [
+        "prometheusz"
+      ],
+      "difficulty": 2,
+      "explanation": "A Kaukázushoz érve Héraklész lelőtte a sast.",
+      "source": {
+        "book_page": 78
+      },
+      "accepted": [
+        "heraklesz",
+        "heraklész"
+      ]
+    },
+    {
+      "id": "q078",
+      "type": "typed",
+      "prompt": "Mit jelképez számodra Prométheusz alakja? (1-2 szó)",
+      "answer": "Az emberiség segítője",
+      "tags": [
+        "prometheusz"
+      ],
+      "difficulty": 2,
+      "explanation": "A feladat kérdezi: mit jelképez számodra Prométheusz alakja; tipikus válasz: az emberek jótevője.",
+      "source": {
+        "book_page": 79
+      },
+      "accepted": [
+        "jótevő",
+        "segítő",
+        "áldozatvállaló",
+        "az emberek jótevője"
+      ]
+    },
+    {
+      "id": "q079",
+      "type": "typed",
+      "prompt": "Ki volt Párisz a történetben?",
+      "answer": "Priamosz trójai király fia (pásztor az Ida hegyén).",
+      "tags": [
+        "parizs"
+      ],
+      "difficulty": 2,
+      "explanation": "Zeusz Hermészt küldte Priamosz fiához, Páriszhoz, aki az Ida hegyén legeltetett.",
+      "source": {
+        "book_page": 80
+      },
+      "accepted": [
+        "priamosz fia",
+        "trójai király fia",
+        "pásztor",
+        "pásztor az ida hegyén"
+      ]
+    },
+    {
+      "id": "q080",
+      "type": "mcq",
+      "prompt": "Miért lett nagy baj Párisz döntéséből?",
+      "answer": "Mert elrabolta Helenét, ami a trójai háborúhoz vezetett.",
+      "tags": [
+        "parizs"
+      ],
+      "difficulty": 2,
+      "explanation": "A szöveg szerint Párisz Helenével visszatért Trójába; ez lett a háború oka.",
+      "source": {
+        "book_page": 81
+      },
+      "choices": [
+        "Mert elrabolta Helenét, ami a trójai háborúhoz vezetett.",
+        "Mert aranyalmát adott Zeusznak.",
+        "Mert Athéné megtiltotta a hajózást.",
+        "Mert Minósz bosszút állt."
+      ]
+    },
+    {
+      "id": "q081",
+      "type": "typed",
+      "prompt": "Meddig ostromolták a görögök Tróját a szöveg szerint?",
+      "answer": "Tíz évig",
+      "tags": [
+        "parizs"
+      ],
+      "difficulty": 2,
+      "explanation": "A magyarázó szöveg szerint a görögök tíz éven át ostromolták Tróját (Iliont).",
+      "source": {
+        "book_page": 81
+      },
+      "accepted": [
+        "10 évig",
+        "tiz evig",
+        "tíz évig"
+      ]
+    },
+    {
+      "id": "q082",
+      "type": "typed",
+      "prompt": "Ki ötölte ki a falovat a szöveg szerint?",
+      "answer": "Odüsszeusz",
+      "tags": [
+        "parizs"
+      ],
+      "difficulty": 2,
+      "explanation": "A magyarázó részben: Odüsszeusz ötlete nyomán készült a faló.",
+      "source": {
+        "book_page": 81
+      },
+      "accepted": [
+        "odusszeusz",
+        "odüsszeusz"
+      ]
+    },
+    {
+      "id": "q083",
+      "type": "typed",
+      "prompt": "Mi Trója másik neve a szöveg szerint?",
+      "answer": "Ilion",
+      "tags": [
+        "parizs"
+      ],
+      "difficulty": 2,
+      "explanation": "A magyarázó szövegben Trója másik neveként Ilion szerepel.",
+      "source": {
+        "book_page": 81
+      },
+      "accepted": [
+        "ilion"
+      ]
+    },
+    {
+      "id": "q084",
+      "type": "mcq",
+      "prompt": "Melyik állítás igaz a mítoszokra a tankönyv szerint?",
+      "answer": "Vannak valóságos elemei is, például földrajzi helyek.",
+      "tags": [
+        "fogalom"
+      ],
+      "difficulty": 2,
+      "explanation": "Az összegzés szerint a mítoszokban lehetnek valóságos elemek (pl. Trója).",
+      "source": {
+        "book_page": 81
+      },
+      "choices": [
+        "Vannak valóságos elemei is, például földrajzi helyek.",
+        "Mindig varázsigékkel kezdődnek.",
+        "Szerzőjük mindig ismert.",
+        "Csak állatok a szereplőik."
+      ]
+    },
+    {
+      "id": "q085",
+      "type": "typed",
+      "prompt": "Sorolj fel 2 dolgot, ami hiányozhat a mítoszokból a tankönyv szerint!",
+      "answer": "Mesekezdés és mesebefejezés (mesefordulatok)",
+      "tags": [
+        "fogalom"
+      ],
+      "difficulty": 2,
+      "explanation": "Az összegzés: hiányozhatnak a mesefordulatok, pl. a mesekezdés és a mesebefejezés.",
+      "source": {
+        "book_page": 81
+      },
+      "accepted": [
+        "mesekezdés",
+        "mesebefejezés",
+        "mesefordulatok",
+        "tipikus mesekezdés",
+        "tipikus mesebefejezés"
+      ]
+    },
+    {
+      "id": "q086",
+      "type": "mcq",
+      "prompt": "A fejezet összegzése szerint melyik téma gyakori az epikus történetekben?",
+      "answer": "Küzdelem a természettel és az igazságtalanság ellen",
+      "tags": [
+        "fogalom"
+      ],
+      "difficulty": 2,
+      "explanation": "Az összefoglaló kiemeli: küzdelem a természettel, az ellenséggel és az igazságtalanság ellen.",
+      "source": {
+        "book_page": 82
+      },
+      "choices": [
+        "Küzdelem a természettel és az igazságtalanság ellen",
+        "Csak vicces állattörténetek",
+        "Csak szerelmes versek",
+        "Csak receptek és tanácsok"
+      ]
+    },
+    {
+      "id": "q087",
+      "type": "typed",
+      "prompt": "Mit jelent az, hogy egy népmese „szájhagyomány útján terjed”?",
+      "answer": "Szóban adták tovább nemzedékről nemzedékre (nem eredetileg írott).",
+      "tags": [
+        "mese"
+      ],
+      "difficulty": 2,
+      "explanation": "A táblázatban: a népmese szájhagyomány útján terjed.",
+      "source": {
+        "book_page": 82
+      },
+      "accepted": [
+        "szóban adták tovább",
+        "szóban terjed",
+        "szájhagyomány",
+        "szajhagyomany"
+      ]
+    },
+    {
+      "id": "q088",
+      "type": "mcq",
+      "prompt": "Melyik jellemző a műmesére?",
+      "answer": "Szerzője ismert",
+      "tags": [
+        "mese"
+      ],
+      "difficulty": 2,
+      "explanation": "A táblázat szerint a műmese szerzője ismert.",
+      "source": {
+        "book_page": 82
+      },
+      "choices": [
+        "Szerzője ismert",
+        "Sok változata van",
+        "Mindig névtelen",
+        "Csak szóban terjed"
+      ]
+    },
+    {
+      "id": "q089",
+      "type": "typed",
+      "prompt": "Miért ment József és Mária Názáretből Betlehembe a feladat szerint?",
+      "answer": "Mert a császár összeírást rendelt el.",
+      "tags": [
+        "biblia"
+      ],
+      "difficulty": 2,
+      "explanation": "A feladatok közt szerepel a császár rendelete az összeírásról.",
+      "source": {
+        "book_page": 99
+      },
+      "accepted": [
+        "összeírás miatt",
+        "összeiras miatt",
+        "a császár rendelete miatt",
+        "a csaszar rendelete miatt"
+      ]
+    },
+    {
+      "id": "q090",
+      "type": "typed",
+      "prompt": "Milyen ajándékokat vittek a napkeleti bölcsek?",
+      "answer": "Aranyat, tömjént és mirhát",
+      "tags": [
+        "biblia"
+      ],
+      "difficulty": 2,
+      "explanation": "A szövegben: aranyat, tömjént és mirhát adtak.",
+      "source": {
+        "book_page": 99
+      },
+      "accepted": [
+        "arany tömjén mirha",
+        "aranyat tömjént mirhát",
+        "arany,tömjén,mirha",
+        "arany tomjen mirha"
+      ]
+    },
+    {
+      "id": "q091",
+      "type": "mcq",
+      "prompt": "Ki volt Heródes a szöveg szerint?",
+      "answer": "Júdea királya Jézus születése idején",
+      "tags": [
+        "biblia"
+      ],
+      "difficulty": 2,
+      "explanation": "A szöveg eleje: Heródes király idején.",
+      "source": {
+        "book_page": 99
+      },
+      "choices": [
+        "Júdea királya Jézus születése idején",
+        "Trója királya",
+        "A görögök hadvezére",
+        "Krétai király"
+      ]
+    },
+    {
+      "id": "q092",
+      "type": "mcq",
+      "prompt": "Miért nem mentek vissza a bölcsek Heródeshez?",
+      "answer": "Álomban figyelmeztetést kaptak, hogy ne menjenek vissza.",
+      "tags": [
+        "biblia"
+      ],
+      "difficulty": 2,
+      "explanation": "A szöveg: kijelentést kaptak álomban, hogy ne térjenek vissza Heródeshez.",
+      "source": {
+        "book_page": 99
+      },
+      "choices": [
+        "Álomban figyelmeztetést kaptak, hogy ne menjenek vissza.",
+        "Elromlott a szekerük.",
+        "Elveszett az aranyalma.",
+        "Nem találták Jeruzsálemet."
+      ]
+    },
+    {
+      "id": "q093",
+      "type": "typed",
+      "prompt": "Hogy hívták a három királyt a feladatban?",
+      "answer": "Gáspár, Menyhért, Boldizsár",
+      "tags": [
+        "biblia"
+      ],
+      "difficulty": 2,
+      "explanation": "A kapcsolódó feladatban szerepel a három név.",
+      "source": {
+        "book_page": 100
+      },
+      "accepted": [
+        "gaspár menyhért boldizsár",
+        "gáspár menyhért boldizsár",
+        "gaspár,menyhért,boldizsár"
+      ]
+    },
+    {
+      "id": "q094",
+      "type": "mcq",
+      "prompt": "Fejezd be: „Szemet szemért, …”",
+      "answer": "fogat fogért.",
+      "tags": [
+        "fogalom"
+      ],
+      "difficulty": 2,
+      "explanation": "A feladat a közmondások párosításáról szól.",
+      "source": {
+        "book_page": 102
+      },
+      "choices": [
+        "fogat fogért.",
+        "te se tedd felebarátodnak.",
+        "megnyílik a nyelve.",
+        "úgy arat."
+      ]
+    },
+    {
+      "id": "q095",
+      "type": "mcq",
+      "prompt": "Fejezd be: „Ki mint vet, …”",
+      "answer": "úgy arat.",
+      "tags": [
+        "fogalom"
+      ],
+      "difficulty": 2,
+      "explanation": "Közmondás-párosítás.",
+      "source": {
+        "book_page": 102
+      },
+      "choices": [
+        "úgy arat.",
+        "fogat fogért.",
+        "megnyílik a nyelve.",
+        "a szegénynek egy sincs."
+      ]
     }
   ]
 }
